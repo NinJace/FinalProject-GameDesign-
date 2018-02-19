@@ -212,15 +212,19 @@ public class PuzzleManagerScript : MonoBehaviour {
         //normalilze list
         foreach(Tuple pair in tempYZ)
         {
-            pair.x -= minY;
-            pair.y -= minZ;
+            pair.x = pair.x + -minY;
+            pair.y = pair.y + -minZ;
         }
 
         //check solution
-        bool correct = true;
+        bool correct = false;
         foreach(Tuple pair in tempYZ)
         {
-            if(yzSolution[pair.x,pair.y] != 1)
+            if(yzSolution[pair.x, pair.y] == 1)
+            {
+                correct = true;
+            }
+            else
             {
                 correct = false;
                 break;
