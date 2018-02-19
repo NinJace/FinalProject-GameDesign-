@@ -10,14 +10,16 @@ public class PuzzleManagerScript : MonoBehaviour {
 
     List<GameObject> blocks;
 
-    int[] xSolution;
-    int[] ySolution;
-    int[] zSolution;
+    int[,] yzSolution;
+    int[,] ySolution;
+    int[,] zSolution;
 
     void Awake()
     {
-
-         
+        //make/load  answers
+        yzSolution = new int[2, 3] {{1, 1, 0}, {0, 1, 1}};
+        //ySolution = new int[]
+    
         //make 2 x 2 x 2 cube
         blocks = new List<GameObject>();
         for(int x = 0; x < 2; x++)
@@ -34,7 +36,7 @@ public class PuzzleManagerScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        checkX();
 	}
 	
 	// Update is called once per frame
@@ -44,23 +46,23 @@ public class PuzzleManagerScript : MonoBehaviour {
         {
             moveX(1);
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.A))
         {
             moveX(-1);
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        else if (Input.GetKeyDown(KeyCode.W))
         {
             moveY(1);
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
             moveY(-1);
         }
-        if (Input.GetKeyDown(KeyCode.Q))
+        else if (Input.GetKeyDown(KeyCode.Q))
         {
             moveZ(1);
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetKeyDown(KeyCode.E))
         {
             moveZ(-1);
         }
@@ -104,6 +106,10 @@ public class PuzzleManagerScript : MonoBehaviour {
         {
             moveX(-dir);
         }
+        else
+        {
+            //check Y and Z if valid
+        }
     }
 
     void moveY(int dir)
@@ -115,6 +121,7 @@ public class PuzzleManagerScript : MonoBehaviour {
                 block.transform.position += Vector3.up * dir;
             }
         }
+
         bool hasNeighbor = false;
         foreach (GameObject block in blocks)
         {
@@ -126,9 +133,14 @@ public class PuzzleManagerScript : MonoBehaviour {
                 }
             }
         }
+
         if (!hasNeighbor)
         {
             moveY(-dir);
+        }
+        else
+        {
+            checkX();
         }
     }
 
@@ -141,6 +153,7 @@ public class PuzzleManagerScript : MonoBehaviour {
                 block.transform.position += Vector3.forward * dir;
             }
         }
+
         bool hasNeighbor = false;
         foreach (GameObject block in blocks)
         {
@@ -152,9 +165,14 @@ public class PuzzleManagerScript : MonoBehaviour {
                 }
             }
         }
+
         if (!hasNeighbor)
         {
             moveZ(-dir);
+        }
+        else
+        {
+            checkX();
         }
     }
 
@@ -170,10 +188,58 @@ public class PuzzleManagerScript : MonoBehaviour {
         return false;
     }
 
+    //fix this
     bool checkX()
     {
+        List<Tuple> tempYZ = new List<Tuple>();
+        int minY = int.MaxValue;
+        int minZ = int.MaxValue;
 
-        return false;
+        //calculate mins and make temporary list
+        foreach (GameObject block in blocks)
+        {
+            if(block.transform.position.y < minY)
+            {
+                minY = (int)block.transform.position.y;
+            }
+            if (block.transform.position.z < minZ)
+            {
+                minZ = (int)block.transform.position.z;
+            }
+            tempYZ.Add(new Tuple((int)block.transform.position.y, (int)block.transform.position.z));
+        }
+
+        //normalilze list
+        foreach(Tuple pair in tempYZ)
+        {
+            pair.x -= minY;
+            pair.y -= minZ;
+        }
+
+        //check solution
+        bool correct = true;
+        foreach(Tuple pair in tempYZ)
+        {
+            if(yzSolution[pair.x,pair.y] != 1)
+            {
+                correct = false;
+                break;
+            }
+        }
+
+        Debug.Log("The X side is " + correct);
+        return correct;
     }
 
+}
+
+class Tuple
+{
+    public int x, y;
+
+    public Tuple(int x, int y)
+    {
+        x = this.x;
+        y = this.y;
+    }
 }
