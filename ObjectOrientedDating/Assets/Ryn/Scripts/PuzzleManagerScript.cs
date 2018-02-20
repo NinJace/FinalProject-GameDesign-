@@ -217,14 +217,10 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
 
         //check solution
-        bool correct = false;
+        bool correct = true;
         foreach(Tuple pair in tempYZ)
         {
-            if(yzSolution[pair.x, pair.y] == 1)
-            {
-                correct = true;
-            }
-            else
+            if(pair.x >= yzSolution.GetLength(0) || pair.y >= yzSolution.GetLength(1) || yzSolution[pair.x, pair.y] != 1)
             {
                 correct = false;
                 break;
