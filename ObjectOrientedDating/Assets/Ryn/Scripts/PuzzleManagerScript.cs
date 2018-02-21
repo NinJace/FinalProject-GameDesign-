@@ -9,16 +9,16 @@ public class PuzzleManagerScript : MonoBehaviour {
     GameObject selected;
 
     List<GameObject> blocks;
+    List<Vector3Int> solution;
 
     int[,] yzSolution;
-    int[,] ySolution;
-    int[,] zSolution;
-
+    
     void Awake()
     {
         //make/load  answers
+        //make one list of Vector3 called Solution
         yzSolution = new int[2, 3] {{1, 1, 0}, {0, 1, 1}};
-        //ySolution = new int[]
+
     
         //make 2 x 2 x 2 cube
         blocks = new List<GameObject>();
@@ -89,20 +89,9 @@ public class PuzzleManagerScript : MonoBehaviour {
                 block.transform.position += Vector3.right * dir;
             }
         }
-        //makes sure all block still connected
-        bool hasNeighbor = false;
-        foreach (GameObject block in blocks)
-        {
-            if (block.transform.position.y == selected.transform.position.y && block.transform.position.z == selected.transform.position.z && !hasNeighbor)
-            {
-                if (blockAt(block.transform.position + Vector3.up) || blockAt(block.transform.position - Vector3.up) || blockAt(block.transform.position + Vector3.forward) || blockAt(block.transform.position - Vector3.forward))
-                {
-                    hasNeighbor = true;
-                }
-            }
-        }
+
         //undoes invalid move
-        if (!hasNeighbor)
+        if (!isValid())
         {
             moveX(-dir);
         }
@@ -122,19 +111,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        bool hasNeighbor = false;
-        foreach (GameObject block in blocks)
-        {
-            if (block.transform.position.x == selected.transform.position.x && block.transform.position.z == selected.transform.position.z)
-            {
-                if (blockAt(block.transform.position + Vector3.right) || blockAt(block.transform.position - Vector3.right) || blockAt(block.transform.position + Vector3.forward) || blockAt(block.transform.position - Vector3.forward))
-                {
-                    hasNeighbor = true;
-                }
-            }
-        }
-
-        if (!hasNeighbor)
+        if (!isValid())
         {
             moveY(-dir);
         }
@@ -154,19 +131,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        bool hasNeighbor = false;
-        foreach (GameObject block in blocks)
-        {
-            if (block.transform.position.y == selected.transform.position.y && block.transform.position.x == selected.transform.position.x)
-            {
-                if (blockAt(block.transform.position + Vector3.right) || blockAt(block.transform.position - Vector3.right) || blockAt(block.transform.position + Vector3.up) || blockAt(block.transform.position - Vector3.up))
-                {
-                    hasNeighbor = true;
-                }
-            }
-        }
-
-        if (!hasNeighbor)
+        if (!isValid())
         {
             moveZ(-dir);
         }
@@ -188,7 +153,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         return false;
     }
 
-    //fix this
+    //convert to check with 3D coordinates
     bool checkX()
     {
         List<Tuple> tempYZ = new List<Tuple>();
@@ -220,7 +185,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         bool correct = true;
         foreach(Tuple pair in tempYZ)
         {
-            if(pair.x >= yzSolution.GetLength(0) || pair.y >= yzSolution.GetLength(1) || yzSolution[pair.x, pair.y] != 1)
+            if(pair.x >= yzSolution.GetLength(0) && pair.y >= yzSolution.GetLength(1) && yzSolution[pair.x, pair.y] != 1)
             {
                 correct = false;
                 break;
@@ -231,6 +196,21 @@ public class PuzzleManagerScript : MonoBehaviour {
         return correct;
     }
 
+    bool isValid()
+    {
+        bool hasNeighbor = true;
+        foreach (GameObject block in blocks)
+        {
+            //make sure each block is touching one other
+            if (!blockAt(block.transform.position + Vector3.up) && !blockAt(block.transform.position - Vector3.up) && !blockAt(block.transform.position + Vector3.forward) && !blockAt(block.transform.position - Vector3.forward) && !blockAt(block.transform.position + Vector3.right) && !blockAt(block.transform.position - Vector3.right))
+            {
+                hasNeighbor = false;
+                break;
+            }
+        
+        }
+        return hasNeighbor;
+    }
 }
 
 class Tuple
