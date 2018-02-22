@@ -9,17 +9,10 @@ public class PuzzleManagerScript : MonoBehaviour {
     GameObject selected;
 
     List<GameObject> blocks;
-    List<Vector3Int> solution;
-
-    int[,] yzSolution;
+    List<Vector3> solution;
     
     void Awake()
     {
-        //make/load  answers
-        //make one list of Vector3 called Solution
-        yzSolution = new int[2, 3] {{1, 1, 0}, {0, 1, 1}};
-
-    
         //make 2 x 2 x 2 cube
         blocks = new List<GameObject>();
         for(int x = 0; x < 2; x++)
@@ -32,11 +25,24 @@ public class PuzzleManagerScript : MonoBehaviour {
                 }
             }
         }
+
+        //make/load  answers
+        solution = new List<Vector3>();
+        for (int y = 0; y < 2; y++)
+        {
+            for (int x = y; x < y + 2; x++)
+            {
+                for (int z = y; z < y + 2; z++)
+                {
+                    solution.Add(new Vector3(x, y, z));
+                }
+            }
+        }
     }
 
     // Use this for initialization
     void Start () {
-        checkX();
+        check();
 	}
 	
 	// Update is called once per frame
@@ -97,7 +103,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
         else
         {
-            //check Y and Z if valid
+            check();
         }
     }
 
@@ -117,7 +123,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
         else
         {
-            checkX();
+            check();
         }
     }
 
@@ -137,7 +143,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
         else
         {
-            checkX();
+            check();
         }
     }
 
@@ -154,16 +160,21 @@ public class PuzzleManagerScript : MonoBehaviour {
     }
 
     //convert to check with 3D coordinates
-    bool checkX()
+    bool check()
     {
-        List<Tuple> tempYZ = new List<Tuple>();
+        List<Vector3> tempSolution = new List<Vector3>();
+        int minX = int.MaxValue;
         int minY = int.MaxValue;
         int minZ = int.MaxValue;
 
         //calculate mins and make temporary list
         foreach (GameObject block in blocks)
         {
-            if(block.transform.position.y < minY)
+            if (block.transform.position.x < minX)
+            {
+                minX = (int)block.transform.position.x;
+            }
+            if (block.transform.position.y < minY)
             {
                 minY = (int)block.transform.position.y;
             }
@@ -171,28 +182,31 @@ public class PuzzleManagerScript : MonoBehaviour {
             {
                 minZ = (int)block.transform.position.z;
             }
-            tempYZ.Add(new Tuple((int)block.transform.position.y, (int)block.transform.position.z));
+            tempSolution.Add(new Vector3(block.transform.position.x, block.transform.position.y, block.transform.position.z));
         }
 
         //normalilze list
-        foreach(Tuple pair in tempYZ)
+        for (int i = 0; i < tempSolution.Count; i++)
         {
-            pair.x = pair.x + -minY;
-            pair.y = pair.y + -minZ;
+            Vector3 tempVec = tempSolution[i];
+            tempVec.x -= minX;
+            tempVec.y -= minY;
+            tempVec.z -= minZ;
+            tempSolution[i] = tempVec;
         }
 
         //check solution
         bool correct = true;
-        foreach(Tuple pair in tempYZ)
+        foreach(Vector3 vec in tempSolution)
         {
-            if(pair.x >= yzSolution.GetLength(0) && pair.y >= yzSolution.GetLength(1) && yzSolution[pair.x, pair.y] != 1)
-            {
+            if (!solution.Contains(vec)){
                 correct = false;
+                Debug.Log("Block at " + vec + " is out of place.");
                 break;
             }
         }
 
-        Debug.Log("The X side is " + correct);
+        Debug.Log("The solution is " + correct);
         return correct;
     }
 
@@ -210,16 +224,5 @@ public class PuzzleManagerScript : MonoBehaviour {
         
         }
         return hasNeighbor;
-    }
-}
-
-class Tuple
-{
-    public int x, y;
-
-    public Tuple(int x, int y)
-    {
-        x = this.x;
-        y = this.y;
     }
 }
