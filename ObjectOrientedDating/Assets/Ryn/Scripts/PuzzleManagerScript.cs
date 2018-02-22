@@ -97,7 +97,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
 
         //undoes invalid move
-        if (!isValid())
+        if (!isValid2())
         {
             moveX(-dir);
         }
@@ -117,7 +117,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        if (!isValid())
+        if (!isValid2())
         {
             moveY(-dir);
         }
@@ -137,7 +137,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        if (!isValid())
+        if (!isValid2())
         {
             moveZ(-dir);
         }
@@ -224,5 +224,52 @@ public class PuzzleManagerScript : MonoBehaviour {
         
         }
         return hasNeighbor;
+    }
+
+    bool isValid2()
+    {
+        List<Vector3> toDo = new List<Vector3>();
+        List<Vector3> done = new List<Vector3>();
+        toDo.Add(blocks[0].transform.position);
+
+        while(toDo.Count > 0)
+        {
+            done.Add(toDo[0]);
+            if (blockAt(toDo[0] + Vector3.up) && !toDo.Contains(toDo[0] + Vector3.up) && !done.Contains(toDo[0] + Vector3.up)){
+                toDo.Add(toDo[0] + Vector3.up);
+            }
+            if (blockAt(toDo[0] - Vector3.up) && !toDo.Contains(toDo[0] - Vector3.up) && !done.Contains(toDo[0] - Vector3.up))
+            {
+                toDo.Add(toDo[0] - Vector3.up);
+            }
+            if (blockAt(toDo[0] + Vector3.right) && !toDo.Contains(toDo[0] + Vector3.right) && !done.Contains(toDo[0] + Vector3.right))
+            {
+                toDo.Add(toDo[0] + Vector3.right);
+            }
+            if (blockAt(toDo[0] - Vector3.right) && !toDo.Contains(toDo[0] - Vector3.right) && !done.Contains(toDo[0] - Vector3.right))
+            {
+                toDo.Add(toDo[0] - Vector3.right);
+            }
+            if (blockAt(toDo[0] + Vector3.forward) && !toDo.Contains(toDo[0] + Vector3.forward) && !done.Contains(toDo[0] + Vector3.forward))
+            {
+                toDo.Add(toDo[0] + Vector3.forward);
+            }
+            if (blockAt(toDo[0] - Vector3.forward) && !toDo.Contains(toDo[0] - Vector3.forward) && !done.Contains(toDo[0] - Vector3.forward))
+            {
+                toDo.Add(toDo[0] - Vector3.forward);
+            }
+            toDo.RemoveAt(0);
+        }
+
+        bool connected = true;
+        foreach (GameObject block in blocks)
+        {
+            if (!done.Contains(block.transform.position))
+            {
+                connected = false;
+                break;
+            }
+        }
+        return connected;
     }
 }
