@@ -17,7 +17,10 @@ public class BlockScript : MonoBehaviour {
     void OnMouseDown()
     {
         //tell the puzzle manager that its selected
-        GetComponentInParent<PuzzleManagerScript>().blockSelected(gameObject);
+        if (Input.GetMouseButtonDown(0))
+        {
+            GetComponentInParent<PuzzleManagerScript>().blockSelected(gameObject);
+        }
     }
 
     void toggleSelected()

@@ -97,7 +97,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
 
         //undoes invalid move
-        if (!isValid2())
+        if (!isValid())
         {
             moveX(-dir);
         }
@@ -117,7 +117,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        if (!isValid2())
+        if (!isValid())
         {
             moveY(-dir);
         }
@@ -137,7 +137,7 @@ public class PuzzleManagerScript : MonoBehaviour {
             }
         }
 
-        if (!isValid2())
+        if (!isValid())
         {
             moveZ(-dir);
         }
@@ -212,22 +212,6 @@ public class PuzzleManagerScript : MonoBehaviour {
 
     bool isValid()
     {
-        bool hasNeighbor = true;
-        foreach (GameObject block in blocks)
-        {
-            //make sure each block is touching one other
-            if (!blockAt(block.transform.position + Vector3.up) && !blockAt(block.transform.position - Vector3.up) && !blockAt(block.transform.position + Vector3.forward) && !blockAt(block.transform.position - Vector3.forward) && !blockAt(block.transform.position + Vector3.right) && !blockAt(block.transform.position - Vector3.right))
-            {
-                hasNeighbor = false;
-                break;
-            }
-        
-        }
-        return hasNeighbor;
-    }
-
-    bool isValid2()
-    {
         List<Vector3> toDo = new List<Vector3>();
         List<Vector3> done = new List<Vector3>();
         toDo.Add(blocks[0].transform.position);
@@ -261,15 +245,6 @@ public class PuzzleManagerScript : MonoBehaviour {
             toDo.RemoveAt(0);
         }
 
-        bool connected = true;
-        foreach (GameObject block in blocks)
-        {
-            if (!done.Contains(block.transform.position))
-            {
-                connected = false;
-                break;
-            }
-        }
-        return connected;
+        return blocks.Count == done.Count;
     }
 }
