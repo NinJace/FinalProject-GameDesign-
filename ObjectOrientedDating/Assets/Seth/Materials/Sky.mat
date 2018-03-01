@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BackTex:
-        m_Texture: {fileID: 2800000, guid: dc4b7abe6e8d0344e91c44e34603596e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DownTex:
-        m_Texture: {fileID: 2800000, guid: d76d5bb3c86be6341a0c32691d0507c0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -47,11 +47,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontTex:
-        m_Texture: {fileID: 2800000, guid: d2a33e9c6ac99c245b483c93129ed171, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LeftTex:
-        m_Texture: {fileID: 2800000, guid: 535d2b74a560c7f47962a2ec9a70172f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -71,11 +71,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RightTex:
-        m_Texture: {fileID: 2800000, guid: 791735f68ed0b014087118ce354fc603, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
-        m_Texture: {fileID: 2800000, guid: dd86975e0c43cf3449732f96ad83b80b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21665701cb4690840869b1ecc028edb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

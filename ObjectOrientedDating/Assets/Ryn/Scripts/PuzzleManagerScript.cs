@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PuzzleManagerScript : MonoBehaviour {
 
     public GameObject block;
+
+    public Canvas win;
 
     GameObject selected;
 
@@ -207,6 +210,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
 
         Debug.Log("The solution is " + correct);
+        win.enabled = correct;
         return correct;
     }
 
