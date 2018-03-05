@@ -9,6 +9,8 @@ public class PuzzleManagerScript : MonoBehaviour {
 
     public Canvas win;
 
+    public int moves;
+
     GameObject selected;
 
     List<GameObject> blocks;
@@ -16,6 +18,8 @@ public class PuzzleManagerScript : MonoBehaviour {
     
     void Awake()
     {
+        moves = 0;
+
         //make 2 x 2 x 2 cube
         blocks = new List<GameObject>();
         for(int x = 0; x < 2; x++)
@@ -107,6 +111,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         else
         {
             check();
+            moves++;
         }
     }
 
@@ -127,6 +132,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         else
         {
             check();
+            moves++;
         }
     }
 
@@ -147,6 +153,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         else
         {
             check();
+            moves++;
         }
     }
 
