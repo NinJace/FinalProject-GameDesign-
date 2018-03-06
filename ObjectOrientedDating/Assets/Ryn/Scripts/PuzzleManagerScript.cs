@@ -7,13 +7,14 @@ public class PuzzleManagerScript : MonoBehaviour {
 
     public GameObject block;
 
-    public Canvas win;
+    public Image win;
 
     public int moves;
 
     GameObject selected;
 
     List<GameObject> blocks;
+    List<GameObject> temp;
     List<Vector3> solution;
     
     void Awake()
@@ -57,26 +58,32 @@ public class PuzzleManagerScript : MonoBehaviour {
         //input to move rows of blocks
         if (Input.GetKeyDown(KeyCode.D))
         {
+            temp = blocks;
             moveX(1);
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
+            temp = blocks;
             moveX(-1);
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
+            temp = blocks;
             moveY(1);
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
+            temp = blocks;
             moveY(-1);
         }
         else if (Input.GetKeyDown(KeyCode.Q))
         {
+            temp = blocks;
             moveZ(1);
         }
         else if (Input.GetKeyDown(KeyCode.E))
         {
+            temp = blocks;
             moveZ(-1);
         }
     }
@@ -106,6 +113,7 @@ public class PuzzleManagerScript : MonoBehaviour {
         //undoes invalid move
         if (!isValid())
         {
+            moves--;
             moveX(-dir);
         }
         else
@@ -127,12 +135,14 @@ public class PuzzleManagerScript : MonoBehaviour {
 
         if (!isValid())
         {
+            moves--;
             moveY(-dir);
         }
         else
         {
             check();
             moves++;
+
         }
     }
 
@@ -148,12 +158,14 @@ public class PuzzleManagerScript : MonoBehaviour {
 
         if (!isValid())
         {
+            moves--;
             moveZ(-dir);
         }
         else
         {
             check();
             moves++;
+
         }
     }
 
@@ -257,5 +269,13 @@ public class PuzzleManagerScript : MonoBehaviour {
         }
 
         return blocks.Count == done.Count;
+    }
+
+    void moveCount()
+    {
+        if (temp != blocks)
+        {
+            moves++;
+        }
     }
 }

@@ -8,22 +8,22 @@ public class Moves : MonoBehaviour {
     GameObject manager;
 
     PuzzleManagerScript script;
-    Text movesOrWhatever;
+    Text moves;
 
     private void Awake()
     {
-        manager = GameObject.Find("Puzzle Manager");
+        manager = GameObject.Find("PuzzleManager");
         script = manager.GetComponent<PuzzleManagerScript>();
-        this.GetComponent<Text>();
+        moves = GetComponent<Text>();
     }
 
     // Use this for initialization
     void Start () {
-        movesOrWhatever.text = "0";
+        GetComponent<Text>().text = "0";
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+       moves.text = script.moves.ToString();
 	}
 }
