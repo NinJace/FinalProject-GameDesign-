@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Ryn/Materials/Scenes/PuzzleTest.unity
-  isLoaded: 1
-  isActive: 1
