@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>You enter Dr. Amini’s office.</string>
+    <string>[None]Umm yes actually here...</string>
+    <string>You present your homework and have casual conversation school and life as he helps answer your homework questions.</string>
+    <string>a</string>
+
+    <string>[None]I have something I wanted to give to you actually.</string>
+    <string>Oh like a um gift? That’s rather unexpected.</string>
+    <string>He looks up from his computer. You can see the bags under his eyes. His hair is still perfect though.</string>
+    <string>Well you’ve looked like you’ve lost some sleep and I don’t really drink this so...</string>
+    <string>You present the coffee.</string>
+
+    <string>[None]Sure, I’ve got some studying todo anyway.</string>
+    <string>[None]No thank you, you should enjoy it.</string>
+    <string>Well I was going to pour you one anyway.</string>
+    <string>You start to get mesmerized by his great hair.</string>
+    <string>Okay... Wait</string>
+
+    <string>So what are your plans for...</string>
+    <string>You have a casual conversation over coffee about school and possible thesis plans. This continues for until you both finish the coffee. You can see the relief on his face. As new life has been breathed into him.</string>
+    <string>Seems like you enjoyed the coffee.</string>
+    <string>Oh yes! Oh my look at the time I have a um meeting in a few minutes.</string>
+    <string>Oh no problem sir, enjoy the rest of the coffee, See you in class.</string>
+
+    <string>Dr. Amini gives you a wave as you exit his office.</string>
+    <string>b</string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You enter Dr. Amini’s office.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Option]Ah hello , do you have more um questions about your homework?</string>
+      <string>[None]Umm yes actually here...</string>
+      <string>[None]I have something I wanted to give to you actually.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You present your homework and have casual conversation school and life as he helps answer your homework questions.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][End]a</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][Dialog]Oh like a um gift? That’s rather unexpected.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He looks up from his computer. You can see the bags under his eyes. His hair is still perfect though.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well you’ve looked like you’ve lost some sleep and I don’t really drink this so...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You present the coffee.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Option]Oh I’ve never had this brand before! Well um I really appreciate it… You know I’m going to uh brew some of this now. Want a cup?</string>
+      <string>[None]Sure, I’ve got some studying todo anyway.</string>
+      <string>[None]No thank you, you should enjoy it.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][Dialog]Well I was going to pour you one anyway.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Well I was going to pour you one anyway.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You start to get mesmerized by his great hair.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Okay... Wait</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]So what are your plans for...</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You have a casual conversation over coffee about school and possible thesis plans. This continues for until you both finish the coffee. You can see the relief on his face. As new life has been breathed into him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Seems like you enjoyed the coffee.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Oh yes! Oh my look at the time I have a um meeting in a few minutes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh no problem sir, enjoy the rest of the coffee, See you in class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Amini gives you a wave as you exit his office.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][End]b</string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

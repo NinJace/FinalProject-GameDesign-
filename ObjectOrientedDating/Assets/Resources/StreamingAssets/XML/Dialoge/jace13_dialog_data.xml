@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Morning Jace.</string>
+    <string>Shhh…. Can’t you see I’m procrastinating here. GEEEEEEZ</string>
+    <string>Oh okay…</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Morning Jace.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Shhh…. Can’t you see I’m procrastinating here. GEEEEEEZ</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh okay…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

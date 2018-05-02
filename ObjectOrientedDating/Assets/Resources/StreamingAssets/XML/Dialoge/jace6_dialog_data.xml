@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>[None]Yes</string>
+    <string>Oh you find any cool stuff lying around?</string>
+    <string>[None]Not really</string>
+    <string>You should. Only if you are caught up on your Homework. You can find some interesting things.</string>
+
+    <string>I found a bottle of touch of grey one time. And no, I didn’t use it... Baka.</string>
+    <string>Make sure to complete as much of your homework as possible though. The Teachers remember... They always remember...</string>
+    <string>[None]Okay...</string>
+    <string>[None]What do you mean?</string>
+    <string>Always... Remember.</string>
+  
+    <string>The teachers will like you more the better you do on your homework. So don’t slack off.</string>
+    <string> </string>
+  
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Jace][Option]Have you had a chance to take a good look around the dorms?</string>
+      <string>[None]Yes</string>
+      <string>[None]Not really</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Oh you find any cool stuff lying around?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]I found a bottle of touch of grey one time. And no, I didn’t use it... Baka.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]You should. Only if you are caught up on your Homework. You can find some interesting things.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]I found a bottle of touch of grey one time. And no, I didn’t use it... Baka.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Jace][Dialog]Make sure to complete as much of your homework as possible though. The Teachers remember... They always remember...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Option]Jace’s eyes grow wide trying to look frightened. It worked.</string>
+      <string>[None]Okay...</string>
+      <string>[None]What do you mean?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Always... Remember.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]The teachers will like you more the better you do on your homework. So don’t slack off.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][End] </string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Jace][End] </string>
+    </ArrayOfString>
+  
+  </values>
+</ConvoEntry>

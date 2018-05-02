@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Seth is very conveniently doing nothing, so I have no trouble bothering him.</string>
+    <string>Have you ever been to the club with Ryn?</string>
+    <string>Yeah. Most of his friends have been there.</string>
+    <string>And what did you think about it?</string>
+
+    <string>Well I had a fun time when I went.</string>
+    <string>Well what kind of club is it?</string>
+    <string>A very gay one.</string>
+    <string>VERY</string>
+    <string>I don’t really know how to respond to this so I leave.</string>
+
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth is very conveniently doing nothing, so I have no trouble bothering him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Have you ever been to the club with Ryn?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Yeah. Most of his friends have been there.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]And what did you think about it?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Well I had a fun time when I went.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Well what kind of club is it?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]A very gay one.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]VERY</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I don’t really know how to respond to this so I leave.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

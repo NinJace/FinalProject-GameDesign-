@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I see Danny playing on one of the computers.</string>
+    <string>You’re heading out, huh? Better luck next time!</string>
+    <string>He returns his gaze to the computer.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I see Danny playing on one of the computers.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]You’re heading out, huh? Better luck next time!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He returns his gaze to the computer.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

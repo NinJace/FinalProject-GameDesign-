@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Our last exchange didn’t really go as planned. I’m a bit nervous.</string>
+    <string>Although at this point it’ll just get worse if I keep freaking myself out. GOTTA STAY COOL.</string>
+    <string>You know we don’t have class on Friday, right?</string>
+    <string>I do.</string>
+
+    <string>[None]I forgot</string>
+    <string>Don’t panic! Just ask him to be your mentor.</string>
+    <string>Well come back if you remember</string>
+    <string>a</string>
+    
+    <string>[None]I think you left this outside.</string>
+    <string>So I did thanks a lot.</string>
+    <string>so I did thanks a lot.</string>
+    <string>I still don’t understand why you like functional programming so much?</string>
+    <string>See, functional programmers just want things to get done. I think they’ve missed something fundamental to good programming: elegance.</string>
+    <string>Functional programming is about being elegant in both syntax and solution. I’ve heard my predecessor was all about ‘being’ vs ‘doing’. It’s an okay way to express this difference. Although you can’t literally be functional code your code should be functioning.</string>
+    <string>I’ve never really thought about it that way. It’s make it seem a lot less annoying when you put it that way.</string>
+    <string>If functional programming is annoying, then you’re probably doing it wrong.</string>
+    <string>I think he just roasted me. Elegantly.</string>
+    <string>I was also hoping that you would teach me more about it.</string>
+    <string>My office hours are almost over so I’d have to show you later.</string>
+    <string>I mean to say would you be my mentor for grad school?</string>
+    <string>I was hoping you would ask me. Of course I would.</string>
+    <string>You wanted me as one of you underlings?</string>
+    <string>Yeah, you remind me a lot of myself when I was younger. Awkward and lacking elegance.</string>
+    <string>I’m going to take that as a compliment and move forward with my life.</string>
+    <string>Your right. Though I like to consider a bit more elegant.</string>
+    <string>Our last conversation certainly disproves it. How about we go grab a couple of beers and talk about your plans in grad school. I’m sure you’d like to get to know me better.</string>
+    <string>It is Friday after all.</string>
+    <string>Great! I’ll grab my datemate and meet you downtown tonight.</string>
+    <string>b</string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Our last exchange didn’t really go as planned. I’m a bit nervous.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Although at this point it’ll just get worse if I keep freaking myself out. GOTTA STAY COOL.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]You know we don’t have class on Friday, right?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I do.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Option]Just making sure. What’s up?</string>
+      <string>[None]I forgot</string>
+      <string>[None]I think you left this outside.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Don’t panic! Just ask him to be your mentor.</string>
+    </ArrayOfString>
+  
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Well come back if you remember</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][End]a</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]I think you left this outside.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Conrad][Dialog]So I did thanks a lot.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]I still don’t understand why you like functional programming so much?</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Conrad][Dialog]See, functional programmers just want things to get done. I think they’ve missed something fundamental to good programming: elegance.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Functional programming is about being elegant in both syntax and solution. I’ve heard my predecessor was all about ‘being’ vs ‘doing’. It’s an okay way to express this difference. Although you can’t literally be functional code your code should be functioning.</string>
+    </ArrayOfString>
+    
+      <ArrayOfString>
+      <string>[Player][Dialog]I’ve never really thought about it that way. It’s make it seem a lot less annoying when you put it that way.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Conrad][Dialog]If functional programming is annoying, then you’re probably doing it wrong.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I think he just roasted me. Elegantly.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]I was also hoping that you would teach me more about it.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]My office hours are almost over so I’d have to show you later.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]I mean to say would you be my mentor for grad school?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]I was hoping you would ask me. Of course I would.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]You wanted me as one of you underlings?</string>
+    </ArrayOfString>
+  
+  <ArrayOfString>
+      <string>[Conrad][Dialog]Yeah, you remind me a lot of myself when I was younger. Awkward and lacking elegance.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I’m going to take that as a compliment and move forward with my life.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Your right. Though I like to consider a bit more elegant.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Our last conversation certainly disproves it. How about we go grab a couple of beers and talk about your plans in grad school. I’m sure you’d like to get to know me better.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]It is Friday after all.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Great! I’ll grab my datemate and meet you downtown tonight.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Win)</string>
+    </ArrayOfString>
+  
+  </values>
+</ConvoEntry>

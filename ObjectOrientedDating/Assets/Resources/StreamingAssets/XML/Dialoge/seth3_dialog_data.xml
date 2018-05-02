@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hey, man, how’s it going? Learn anything new on your first day?</string>
+    <string>I mean, I learned not to forget my syllabus.</string>
+    <string>[None]Amini</string>
+    <string>Yeah, cloud computing’s pretty popular. But not as popular as Amini’s hair.</string>
+
+    <string>Seth winks. Violently.</string>
+    <string>I walk away, too uncomfortable to respond.</string>
+    <string> </string>
+    <string>[None]Arun</string>
+    <string>Oh, baby, into that VR craze? I think it’ll teach us some interesting virtual...</string>
+
+    <string>Seth coughs for effect.</string>
+    <string>Interactions.</string>
+    <string>[None]Conrad</string>
+    <string>Machine learning. I could think of some things to teach a computer.</string>
+    <string>dummy</string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Hey, man, how’s it going? Learn anything new on your first day?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I mean, I learned not to forget my syllabus.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Option]On the first day? That sucks. As long as you don’t forget the homework. The teachers wouldn’t like that one bit. Thinking of anybody as your mentor yet?</string>
+      <string>[None]Amini</string>
+      <string>[None]Arun</string>
+      <string>[None]Conrad</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Yeah, cloud computing’s pretty popular. But not as popular as Amini’s hair.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth winks. Violently.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I walk away, too uncomfortable to respond.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Oh, baby, into that VR craze? I think it’ll teach us some interesting virtual...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth coughs for effect.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]Interactions.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth winks. Violently.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Machine learning. I could think of some things to teach a computer.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth winks. Violently.</string>
+    </ArrayOfString>
+  
+  </values>
+</ConvoEntry>

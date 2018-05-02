@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Jace walks by.</string>
+    <string>I hope you don’t end up alone for the rest of your life. Byeeeee</string>
+    <string>He keeps walking.</string>
+    <string>Wow he’s actually just an ass.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace walks by.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]I hope you don’t end up alone for the rest of your life. Byeeeee</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He keeps walking.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Wow he’s actually just an ass.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

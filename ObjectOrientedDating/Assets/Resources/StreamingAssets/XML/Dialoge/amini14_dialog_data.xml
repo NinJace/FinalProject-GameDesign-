@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>[None]Just dropping by with a few questions from the lecture.</string>
+    <string>Ahhh okay take a seat and let’s go over them.</string>
+    <string>Dr. Amini happily answers your questions.</string>
+    <string>a</string>
+
+    <string>[None]Okay I have to know...</string>
+    <string>Is that your natural hair or what? Not that I think it’s fake or anything. But did it just naturally grey to perfection or do you use something like this?</string>
+    <string>[NAME] shows Dr. Amini the Touch Of Grey.</string>
+    <string>Well uh... I don’t really think this is really a question for my office hours. Let’s just say it’s a lot of uh work to make sure my hair is best in the department. Actually I’m about to grab lunch how about you walk with me I can answer any of your questions ;)</string>
+    <string>You both walk as he reveals his secrets of maintaining his appearance.</string>
+
+    <string>Wow I need to rethink my morning routine. I didn’t know how much work it could be to maintain my youth. You definitely gave me some things to think about.</string>
+    <string>Well, your welcome. I’m educator inside the classroom and out so it seems.</string>
+    <string>You look longingly at him while he enjoys his subway sandwich on the park bench. His gaze fixated on the sandwich in front of him. Not a single hair out of place. The only thing that comes to mind is perfection. His hair is perfect. Dr. Amini looks up from his sandwich, looks like a grilled chicken sub.</string>
+    <string>Yes [NAME], did I uh... get food on my shirt?</string>
+    <string>He frantically checks his shirt.</string>
+
+    <string>Oh no sir I just ummm...</string>
+    <string>Dr. Amini looks at you curiously.</string>
+    <string>Hmmm?</string>
+    <string>He lets out a chuckle.</string>
+    <string>You sound like my wife always nervous when asking me anything.</string>
+    <string>Did he say wife? Well I guess that makes since he’s spoken for. Have you seen his hair...? Well I guess that makes this easier...</string>
+
+    <string>Well would you let me work under you sir. I haven’t chosen my mentor yet and It seems like I have a lot to learn about cloud computing and grooming myself.</string>
+    <string>Of course! I don’t know why you were nervous. So what are your plans for your thesis...</string>
+    <string>You talk a while about your future at the university and what is to come from your education. Eventually you walk back to your dorm disappointed. You found your mentor but, not true love.</string>
+    <string>b</string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Amini][Option]Ah hello uh... [NAME] right? What can I help you today?</string>
+      <string>[None]Just dropping by with a few questions from the lecture.</string>
+      <string>[None]Okay I have to know...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Ahhh okay take a seat and let’s go over them.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Amini happily answers your questions.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][End]a</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Is that your natural hair or what? Not that I think it’s fake or anything. But did it just naturally grey to perfection or do you use something like this?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog][NAME] shows Dr. Amini the Touch Of Grey.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Well uh... I don’t really think this is really a question for my office hours. Let’s just say it’s a lot of uh work to make sure my hair is best in the department. Actually I’m about to grab lunch how about you walk with me I can answer any of your questions ;)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You both walk as he reveals his secrets of maintaining his appearance.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Wow I need to rethink my morning routine. I didn’t know how much work it could be to maintain my youth. You definitely gave me some things to think about.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][Dialog]Well, your welcome. I’m educator inside the classroom and out so it seems.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You look longingly at him while he enjoys his subway sandwich on the park bench. His gaze fixated on the sandwich in front of him. Not a single hair out of place. The only thing that comes to mind is perfection. His hair is perfect. Dr. Amini looks up from his sandwich, looks like a grilled chicken sub.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Yes [NAME], did I uh... get food on my shirt?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He frantically checks his shirt.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh no sir I just ummm...</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Amini looks at you curiously.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Hmmm?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He lets out a chuckle.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]You sound like my wife always nervous when asking me anything.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Did he say wife? Well I guess that makes since he’s spoken for. Have you seen his hair...? Well I guess that makes this easier...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well would you let me work under you sir. I haven’t chosen my mentor yet and It seems like I have a lot to learn about cloud computing and grooming myself.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][Dialog]Of course! I don’t know why you were nervous. So what are your plans for your thesis...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You talk a while about your future at the university and what is to come from your education. Eventually you walk back to your dorm disappointed. You found your mentor but, not true love.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Win)</string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

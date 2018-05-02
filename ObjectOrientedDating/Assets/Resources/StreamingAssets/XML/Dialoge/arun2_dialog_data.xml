@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I have three classes this semester and first up is virtual reality. I walk in a see a few familiar faces. I should sit next to someone I know, that way I can ask for notes if I ever miss class. I sit down next to Jace just as class begins. The professor walks in a introduces himself.</string>
+    <string>Hello class. My name is Dr. Arun Kulshreshth.</string>
+    <string>He has an Indian accent, but all my years of undergraduate work have made deciphering accents easy.</string>
+    <string>This class is on virtual reality. You will be learning about how programs, mainly video games, get translated from a normal monitor to a head set. You will also be learning the various techniques that VR developers use to make their experiences more immersive. And most importantly you will learn how to make sure your users don’t get seasick.</string>
+
+    <string>I turn to Jace to see what they think about the class.</string>
+    <string>This class sounds like it’s going to be very interesting, but difficult. What do you think?</string>
+    <string>I did my senior project with Dr. Arun in VR. I think It will be okay for me. B-Baka.</string>
+    <string>I look back as Arun starts teaching the material. Having good notes will be crucial to passing my classes, so I better start taking them now. Class goes on and Arun explain the history behind VR. He ends class with an important announcement.</string>
+    <string>I’ve lost one of the touch controllers for one of our Oculus headsets. It’s probably still in the lab, but keep a look out for it. If you stole it I’d like it back... Heh heh.</string>
+
+    <string>No one else in class actually laughs.</string>
+    <string>Arun lets everyone leave and I’m off to my next class.</string>
+    <string>My second class of the day is on Machine Learning.</string>
+    <string>Once again, my new friends are all in this class. That’s not too surprising. They did warn me after all. Seth has their notes out and is prepared for class. I follow suit. The teacher walks in and plugs in his laptop without a word. He pulls up an introductory powerpoint and starts to address the class.</string>
+    <string>My name is Edward Conrad, but you should call me Dr. Conrad. I’m sure you’ve all looked at the syllabus by now, so you should know this class will be about Machine Learning.</string>
+
+    <string>This course will mostly be focused on layered architecture with TensorFlow.</string>
+    <string>Conrad continues his introduction as I look for my syllabus. I scramble through my bag. Oh no, I totally forgot it. I look over at Seth’s notes and he has the syllabus printed out. I can see that he's drawing something in his notebook.</string>
+    <string>Hey, what’s your drawing supposed to be?</string>
+    <string>His name’s Foo. He’s hunting fruit.</string>
+    <string>I guess I can see what he's trying to draw, but it still just looks like a blob. It looks much more like a potato. Conrad hasn’t stopped talking even though I zoned out. I should start paying attention again.</string>
+
+    <string>Now, to begin.</string>
+    <string>I just missed his introduction, so I should be good for the rest of the class. I go back to taking notes. I make a reminder for myself about printing the syllabus later. The rest of class goes smoothly. Seth takes notes next to me and doodles intermittently. He tries to draw a picture of Conrad, but it doesn’t turn out so well. The drawing keeps me entertained for the few boring moments in class. Conrad wraps up and I’m off to my next class.</string>
+    <string>Welcome to the lecture of this course!</string>
+    <string>As expected everyone is here again. I guess this is going to be my routine for the rest of the semester. Luckily this is the last class of the day so I still have lots of time to hang out or do work. I sit with Ryn this time.</string>
+    <string>Amini walks in briskly. I think he’s been the best dressed professor so far, but I’m not sure. I’ll have to take a closer look at everyone, but that hair is just so good.</string>
+
+    <string>Okay, so today I will give a brief overview of the class and then we can all get started. By the way this class is cloud computing so I hope you’re in the right place. That would be like getting caught in the rain wouldn’t it.</string>
+    <string>We’re going to talk about the transfer of data between machines and servers before we get too deep. Of course, servers are just other machines so it’s not a complicated as it seems.</string>
+    <string>I don’t really mind the introduction, but I with that teachers wouldn’t teach on the first day of class. I really underestimated how different grad school would be. Ryn seems to be enjoying the class. Certainly enjoying it more that I am. Ryn is taking a nap on the first day. I hope this isn’t a trend; I need his notes.</string>
+    <string>Amini is covering different forms of server architecture. My notes are full of the diagrams he’s putting on the board. When class ends I’m so glad to be done and my legs need a good stretch. It’s day one and of course I already have homework in every class. I should head home and start it. Maybe I can get help from the other students.</string>
+    <string>As you walk out of your last class you notice an PL Textbook sitting on the ground.</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I have three classes this semester and first up is virtual reality. I walk in a see a few familiar faces. I should sit next to someone I know, that way I can ask for notes if I ever miss class. I sit down next to Jace just as class begins. The professor walks in a introduces himself.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Hello class. My name is Dr. Arun Kulshreshth.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He has an Indian accent, but all my years of undergraduate work have made deciphering accents easy.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]This class is on virtual reality. You will be learning about how programs, mainly video games, get translated from a normal monitor to a head set. You will also be learning the various techniques that VR developers use to make their experiences more immersive. And most importantly you will learn how to make sure your users don’t get seasick.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I turn to Jace to see what they think about the class.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]This class sounds like it’s going to be very interesting, but difficult. What do you think?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]I did my senior project with Dr. Arun in VR. I think It will be okay for me. B-Baka.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I look back as Arun starts teaching the material. Having good notes will be crucial to passing my classes, so I better start taking them now. Class goes on and Arun explain the history behind VR. He ends class with an important announcement.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]I’ve lost one of the touch controllers for one of our Oculus headsets. It’s probably still in the lab, but keep a look out for it. If you stole it I’d like it back... Heh heh.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]No one else in class actually laughs.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Arun lets everyone leave and I’m off to my next class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]My second class of the day is on Machine Learning.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Once again, my new friends are all in this class. That’s not too surprising. They did warn me after all. Seth has their notes out and is prepared for class. I follow suit. The teacher walks in and plugs in his laptop without a word. He pulls up an introductory powerpoint and starts to address the class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]My name is Edward Conrad, but you should call me Dr. Conrad. I’m sure you’ve all looked at the syllabus by now, so you should know this class will be about Machine Learning.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]This course will mostly be focused on layered architecture with TensorFlow.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Conrad continues his introduction as I look for my syllabus. I scramble through my bag. Oh no, I totally forgot it. I look over at Seth’s notes and he has the syllabus printed out. I can see that he's drawing something in his notebook.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hey, what’s your drawing supposed to be?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]His name’s Foo. He’s hunting fruit.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I guess I can see what he's trying to draw, but it still just looks like a blob. It looks much more like a potato. Conrad hasn’t stopped talking even though I zoned out. I should start paying attention again.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Now, to begin.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I just missed his introduction, so I should be good for the rest of the class. I go back to taking notes. I make a reminder for myself about printing the syllabus later. The rest of class goes smoothly. Seth takes notes next to me and doodles intermittently. He tries to draw a picture of Conrad, but it doesn’t turn out so well. The drawing keeps me entertained for the few boring moments in class. Conrad wraps up and I’m off to my next class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Welcome to the lecture of this course!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As expected everyone is here again. I guess this is going to be my routine for the rest of the semester. Luckily this is the last class of the day so I still have lots of time to hang out or do work. I sit with Ryn this time.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Amini walks in briskly. I think he’s been the best dressed professor so far, but I’m not sure. I’ll have to take a closer look at everyone, but that hair is just so good.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Okay, so today I will give a brief overview of the class and then we can all get started. By the way this class is cloud computing so I hope you’re in the right place. That would be like getting caught in the rain wouldn’t it.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Amini][Dialog]We’re going to talk about the transfer of data between machines and servers before we get too deep. Of course, servers are just other machines so it’s not a complicated as it seems.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I don’t really mind the introduction, but I with that teachers wouldn’t teach on the first day of class. I really underestimated how different grad school would be. Ryn seems to be enjoying the class. Certainly enjoying it more that I am. Ryn is taking a nap on the first day. I hope this isn’t a trend; I need his notes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Amini is covering different forms of server architecture. My notes are full of the diagrams he’s putting on the board. When class ends I’m so glad to be done and my legs need a good stretch. It’s day one and of course I already have homework in every class. I should head home and start it. Maybe I can get help from the other students.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As you walk out of your last class you notice an PL Textbook sitting on the ground.</string>
+    </ArrayOfString> 
+    <ArrayOfString>
+      <string>[Narrator][Scene]PuzzleTest</string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

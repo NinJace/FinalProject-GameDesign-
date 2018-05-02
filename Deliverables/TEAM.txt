@@ -1,0 +1,23 @@
+RYN
+Did most of the Puzzle scene in terms of both object placement, coding, and level design
+Made Main Menu
+Designed Game Architecture
+Made half the sprites
+
+SETH
+In charge of the Dialog Scenes and the xml files that they read from
+Made Parser and Dialog/Convo Displays
+Animated Sprites
+
+JACE
+Designed the 3D overworlds in the game
+Made all end game screens
+Added Sounds and Particle effects
+
+DANNY
+Altered Controller from last game
+Did other half of sprites
+
+90% of our script was written by Ryn, Seth, and Jace
+Ryn, Seth, and Jace all worked together for integration and final project debugging
+Shoutout to Robert Kyle for making our music

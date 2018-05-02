@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <string>Hi and welcome to the tutorial for Object Oriented Dating!</string>
+  <string>During this game you will be asked to complete puzzles as part of various objectives.</string>
+  <string>As you can see there is a colored block in the middle of the screen. Try clicking on it.</string>
+  <string>It’s made of many smaller blocks. The darker block is the one currently selected. You can see all the sides of the blocks by moving the camera. You can move the camera by dragging with the left mouse button.</string>
+  <string>In the upper left corner is the goal to this puzzle. Each shape corresponds to the side of blocks of the same color. You must align the blocks so that they match all three pictures. Make sure when you view the sides, their neighboring colors are the same as in the goal.</string>
+  <string>You can move rows of blocks with Q, W, E, A, S, and D. Pressing these keys will move the row or column of blocks that is selected. The direction is indicated by the colors in the lower left corner.</string>
+  <string>You should be able to complete this puzzle on your own.</string>
+  <string>Thanks for playing this game. We hope you enjoy it.</string>
+</ArrayOfString>

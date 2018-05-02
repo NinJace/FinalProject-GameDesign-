@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <string>Hello and welcome to the GRE Exam. If you pass this exam you will have the ability to go to graduate school.</string>
+  <string>Please enter your name and begin the exam. </string>
+ 
+</ArrayOfString>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Arun I found it! The VR controller!</string>
+    <string>That’s good news. I already bought a new headset but, you can never have enough I guess. Heh heh heh.</string>
+    <string>*crickets*</string>
+    <string>Yeah so here you go...</string>
+
+    <string>You hand over the controller.</string>
+    <string>Well, thanks</string>
+    <string>Man of few words... Interesting mmm</string>
+    <string>I feel like I should repay you for finding the controller.</string>
+    <string>Anything hmmmm?</string>
+
+    <string>How about lunch?</string>
+    <string>Well I’m poor and hungry, so that sounds great!</string>
+    <string>Heh heh heh</string>
+    <string>*more crickets*</string>
+    <string>That’s not a joke :(</string>
+
+    <string>You both enjoy some food from the greek restaurant next door.</string>
+    <string>Thanks a lot Dr. Arun!</string>
+    <string>Well in terms of value it seems like I’m winning, heh heh heh.</string>
+    <string>The crickets have left at this point.</string>
+    <string>All right well thanks for the meal. I’ve got some work to do. I’ll see you in class.</string>
+
+    <string>Dr. Arun waves as you are leaving.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Arun I found it! The VR controller!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]That’s good news. I already bought a new headset but, you can never have enough I guess. Heh heh heh.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]*crickets*</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah so here you go...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You hand over the controller.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Arun][Dialog]Well, thanks</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Man of few words... Interesting mmm</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]I feel like I should repay you for finding the controller.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Anything hmmmm?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]How about lunch?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Well I’m poor and hungry, so that sounds great!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Heh heh heh</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]*more crickets*</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]That’s not a joke :(</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You both enjoy some food from the greek restaurant next door.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Thanks a lot Dr. Arun!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Well in terms of value it seems like I’m winning, heh heh heh.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]The crickets have left at this point.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]All right well thanks for the meal. I’ve got some work to do. I’ll see you in class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Arun waves as you are leaving.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Arun][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

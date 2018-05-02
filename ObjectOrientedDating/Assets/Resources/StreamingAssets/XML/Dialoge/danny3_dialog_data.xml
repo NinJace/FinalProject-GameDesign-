@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Finally! The day is over! Time to go play some games!</string>
+    <string>Danny notices me enter his room..</string>
+    <string>Oh hey there, [NAME]! Did you enjoy the lectures today?</string>
+    <string>It was just the first day, but I noticed you were just playing games in there. What gives?</string>
+    
+    <string>Hey! I may not seem like I’m paying attention, but I am!</string>
+    <string>He switches his attention to the game on his computer monitor.</string>
+    <string>[None]Amini.</string>
+    <string>[None]Arun.</string>
+    <string>[None]Conrad.</string>
+    
+    <string>Yeah. Amini’s a pretty good professor, but cloud computing is interesting in how I can sync my game with the cloud.</string>
+    <string>Arun’s classes are pretty fun. I always wanted to do VR, but wearing glasses makes it difficult to do that sort of stuff.</string>
+    <string>I’ve never had a class with Conrad before, but I think Machine Learning is useful for creating difficult AI in games.</string>
+    <string>Anyway, you might not see me in class that often, but keep me updated on what’s going on!</string>
+    <string>I let out a sigh as Danny’s lax nature is revealed to me.</string>
+    
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Finally! The day is over! Time to go play some games!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny notices me enter his room..</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Oh hey there, [NAME]! Did you enjoy the lectures today?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]It was just the first day, but I noticed you were just playing games in there. What gives?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Hey! I may not seem like I’m paying attention, but I am!</string>
+      
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He switches his attention to the game on his computer monitor.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Option]Dang it! Not again! By the way, who are you deciding on as being your advisor?</string>
+      <string>[None]Amini.</string>
+      <string>[None]Arun.</string>
+      <string>[None]Conrad.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Yeah. Amini’s a pretty good professor, but cloud computing is interesting in how I can sync my game with the cloud.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Arun’s classes are pretty fun. I always wanted to do VR, but wearing glasses makes it difficult to do that sort of stuff.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]I’ve never had a class with Conrad before, but I think Machine Learning is useful for creating difficult AI in games.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Danny][Dialog]Anyway, you might not see me in class that often, but keep me updated on what’s going on!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Anyway, you might not see me in class that often, but keep me updated on what’s going on!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Anyway, you might not see me in class that often, but keep me updated on what’s going on!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I let out a sigh as Danny’s lax nature is revealed to me.</string>
+    </ArrayOfString>   
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+    
+  
+  </values>
+</ConvoEntry>

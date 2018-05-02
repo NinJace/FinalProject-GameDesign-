@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hi Ryn, I’ve got a question about this homework.</string>
+    
+    <string>[None]Deep Learning</string>
+    <string>Hm? I’m not too good at that class. Maybe you should ask someone else.</string>
+    <string>a</string>
+    
+    <string>[None]Cloud Computing</string>
+    
+    <string>[None]VR</string>
+    <string>Alright. Hit me.</string>
+    <string>Hit you?</string>
+    <string>It’s an expression, just ask the question.</string>
+    <string>I’m wondering how to set up this UI so that it would be the most efficient while still being aesthetically pleasing.</string>
+    <string>Ah, a design question. I like it. Well do you have a sketch for the layout you were considering?</string>
+    <string>I pull out my notebook and produce a drawing from class.</string>
+    <string>Well you already have all the elements that you need here. You just need to work on their placement. Why don’t we try moving some stuff around.</string>
+    <string>I spend couple of minutes making a new sketch.</string>
+    <string>How about this design then?</string>
+    <string>This one is perfect! I like your use of negative space.</string>
+    <string>Ryn is making a critique of my work, but I’m looking at the plant on his windowsill. It’s a cactus. Hmm... didn’t one of the teachers say he likes gardening? But you’d never put a cactus in a garden anyway.</string>
+    <string>Thanks for all your help. Also was wondering if I could have your cactus.</string>
+    <string>My what!?</string>
+    <string>... I mean … I didn’t know you were also gay-</string>
+    <string>No. The one on your windowsill. The literal plant.</string>
+    <string>Ah yes, you could have never meant anything else...</string>
+    <string>I have a few others at home, so I guess you could have it.</string>
+    <string>Are you worthy of such great responsibility? You have to water it once a week ya know.</string>
+    <string>Of course I’m ready.</string>
+    <string>Always ready for a good cactus huh? ;) You’re going to have to convince me.</string>
+    <string>Since when have cacti been so suggestive?</string>
+    <string>Alright. How?</string>
+    <string>Through the power of gameplay!</string>
+    <string>Ok, you can have my cactus. His name his Kevin. If he dies, I’ll find you.</string>
+    <string>Wait, what are you using this for anyway?</string>
+    <string>I have something really important to do right now.</string>
+    <string>b</string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hi Ryn, I’ve got a question about this homework.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Option]What class is it in?</string>
+      <string>[None]Deep Learning</string>
+      <string>[None]Cloud Computing</string>
+      <string>[None]VR</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Hm? I’m not too good at that class. Maybe you should ask someone else.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]a</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>Dog</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Hm? I’m not too good at that class. Maybe you should ask someone else.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Alright. Hit me.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hit you?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]It’s an expression, just ask the question.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I’m wondering how to set up this UI so that it would be the most efficient while still being aesthetically pleasing.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Ah, a design question. I like it. Well do you have a sketch for the layout you were considering?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I pull out my notebook and produce a drawing from class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Well you already have all the elements that you need here. You just need to work on their placement. Why don’t we try moving some stuff around.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I spend couple of minutes making a new sketch.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]How about this design then?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]This one is perfect! I like your use of negative space.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn is making a critique of my work, but I’m looking at the plant on his windowsill. It’s a cactus. Hmm... didn’t one of the teachers say he likes gardening? But you’d never put a cactus in a garden anyway.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Thanks for all your help. Also was wondering if I could have your cactus.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]My what!?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]... I mean … I didn’t know you were also gay-</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No. The one on your windowsill. The literal plant.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Ah yes, you could have never meant anything else...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I have a few others at home, so I guess you could have it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Are you worthy of such great responsibility? You have to water it once a week ya know.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Of course I’m ready.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Always ready for a good cactus huh? ;) You’re going to have to convince me.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Since when have cacti been so suggestive?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Alright. How?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Through the power of gameplay!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Ok, you can have my cactus. His name his Kevin. If he dies, I’ll find you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Wait, what are you using this for anyway?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I have something really important to do right now.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]PuzzleTest</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

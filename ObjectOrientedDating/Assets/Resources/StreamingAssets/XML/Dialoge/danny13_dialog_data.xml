@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hey, [NAME]! Good to see you again!</string>
+    <string>Good to not see you again.</string>
+    <string>I give him a stealthy ninja wink.</string>
+    <string> </string>
+
+ 
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Hey, [NAME]! Good to see you again!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Good to not see you again.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I give him a stealthy ninja wink.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+   
+  </values>
+</ConvoEntry>

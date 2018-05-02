@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I see Ryn on his way to class. He’s eating a Clif Bar as he walks.</string>
+    <string>Hey Ryn.</string>
+    <string>I’m late...</string>
+    <string>He walks by without stopping. I guess he really is late, and not much of a morning person. I can just talk to him later then.</string>
+
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I see Ryn on his way to class. He’s eating a Clif Bar as he walks.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hey Ryn.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I’m late...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He walks by without stopping. I guess he really is late, and not much of a morning person. I can just talk to him later then.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Class is going well until Arun goes off on a tangent.</string>
+    <string>My wife says I don’t have any gardening skills.</string>
+    <string>I’m not sure how we got here.</string>
+    <string>She thinks I’m the one who keeps killing out potted plants, but it’s her not me.</string>
+
+    <string>If I can just get one plant to live without her involvement, she’ll have to say that it’s not me.</string>
+    <string>But she’ll probably blame the dog before she admits defeat.</string>
+    <string>I really don’t understand whatever relationship dynamic is happening here, but I do understand what’s actually important in class. That’s gotta count for something right.</string>
+   
+    <string>Conrad’s class is a lot more normal. He’s big into machine learning, obviously, but also, some functional programming.</string>
+    <string>I know this isn’t an easy class, but I’ll tell you what I do whenever I get stuck. I will write out what I want my program to do in functional pseudocode and the translate it over to imperative.</string>
+    <string>It’s a great way to avoid side effects and mutations in your code.</string>
+    <string>It’s good advice, but I’m not sure how practical it is. Well it works for him at least.</string>
+
+    <string>Amini walks into class… I’ve never noticed it before but, there is something captivating about him. What is it….</string>
+    <string>It is something so subtle.... HIS HAIR</string>
+    <string>It is layered with just the right amount of grey. He must really take pride in it. That’s like tender loving care levels of hair. </string>
+    <string>bla bla… clouds… and… computing</string>
+    <string>I’m not getting much from this lecture.. I can’t stop staring at his hair.</string>
+    <string>Just gonna keep staring. No one will think I’m creepy. I’m just really into the lecture.</string>
+    
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Class is going well until Arun goes off on a tangent.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]My wife says I don’t have any gardening skills.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I’m not sure how we got here.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]She thinks I’m the one who keeps killing out potted plants, but it’s her not me.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]If I can just get one plant to live without her involvement, she’ll have to say that it’s not me.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Arun][Dialog]But she’ll probably blame the dog before she admits defeat.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I really don’t understand whatever relationship dynamic is happening here, but I do understand what’s actually important in class. That’s gotta count for something right.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Conrad’s class is a lot more normal. He’s big into machine learning, obviously, but also, some functional programming.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]I know this isn’t an easy class, but I’ll tell you what I do whenever I get stuck. I will write out what I want my program to do in functional pseudocode and the translate it over to imperative.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]It’s a great way to avoid side effects and mutations in your code.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]It’s good advice, but I’m not sure how practical it is. Well it works for him at least.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Amini walks into class… I’ve never noticed it before but, there is something captivating about him. What is it….</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]It is something so subtle.... HIS HAIR</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]It is layered with just the right amount of grey. He must really take pride in it. That’s like tender loving care levels of hair. </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]bla bla… clouds… and… computing</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I’m not getting much from this lecture.. I can’t stop staring at his hair.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Just gonna keep staring. No one will think I’m creepy. I’m just really into the lecture.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Amini][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

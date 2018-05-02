@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Having so much homework is the worst. I couldn’t even go out with Ryn and Jace, now I just look like a loser who didn’t wanna go.</string>
+    <string>I chose not to go.</string>
+    <string>Oh. Did I say loser?</string>
+    <string>I meant Loser™.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Having so much homework is the worst. I couldn’t even go out with Ryn and Jace, now I just look like a loser who didn’t wanna go.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I chose not to go.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Oh. Did I say loser?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]I meant Loser™.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

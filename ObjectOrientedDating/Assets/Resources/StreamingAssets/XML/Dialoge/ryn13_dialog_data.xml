@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Ryn is relaxing once again. He’s got his headphones in and is mouthing the lyrics to whatever song he’s listening to.</string>
+    <string>Ryn pulls out one of his earbuds as I approach.</string>
+    <string>Hey Ryn, what are you listening to?</string>
+    <string>The Rhythm by MNEK.</string>
+
+    <string>You listen to him a lot?</string>
+    <string>Often. He might be one of my favorites since I keep coming back to listen to him. I’ll make you a playlist later if you want.</string>
+    <string>That’d be nice.</string>
+    <string>NICE.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn is relaxing once again. He’s got his headphones in and is mouthing the lyrics to whatever song he’s listening to.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn pulls out one of his earbuds as I approach.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hey Ryn, what are you listening to?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]The Rhythm by MNEK.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]You listen to him a lot?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Often. He might be one of my favorites since I keep coming back to listen to him. I’ll make you a playlist later if you want.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]That’d be nice.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]NICE.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

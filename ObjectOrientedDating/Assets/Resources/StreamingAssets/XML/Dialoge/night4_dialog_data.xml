@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Today sure was a busy day. I think I’m really going to like it here. I keep remembering what Ryn said about choosing a mentor. The teachers here all seem so good, how will I know who’s right for me? Maybe I should just go with the flow until I know who I want.</string>
+    <string>I wake up well rested and ready for a new day. I have all my classes on Monday and Wednesday, so today I’m free. I should finish up my homework before the next class. In fact, I bet I could get my professors to check it before tomorrow.</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Today sure was a busy day. I think I’m really going to like it here. I keep remembering what Ryn said about choosing a mentor. The teachers here all seem so good, how will I know who’s right for me? Maybe I should just go with the flow until I know who I want.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I wake up well rested and ready for a new day. I have all my classes on Monday and Wednesday, so today I’m free. I should finish up my homework before the next class. In fact, I bet I could get my professors to check it before tomorrow.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

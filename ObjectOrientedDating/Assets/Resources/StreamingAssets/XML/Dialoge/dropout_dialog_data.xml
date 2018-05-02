@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Today is Saturday. None of the professor’s are here. It’s too late. Your time to choose a mentor has passed. Without someone to lead you, you fail your first semester as a grad student. As you walk away from the university, it starts to rain. All those months of studying, all that money you spent, and all those promises you made, were washed away. You gave up on your Masters, and now, you have to figure out what to do with your life.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Today is Saturday. None of the professor’s are here. It’s too late. Your time to choose a mentor has passed. Without someone to lead you, you fail your first semester as a grad student. As you walk away from the university, it starts to rain. All those months of studying, all that money you spent, and all those promises you made, were washed away. You gave up on your Masters, and now, you have to figure out what to do with your life.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Lose)</string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

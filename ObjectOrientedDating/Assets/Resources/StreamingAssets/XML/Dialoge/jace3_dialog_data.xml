@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Oh, you survived... JK</string>
+    <string>ha...haha…</string>
+    <string>[None]Amini</string>
+    <string>[None]Arun</string>
+    <string>[None]Conrad</string>
+    <string>He’s definitely a looker.</string>
+    <string>Sounds like someone is digging VR.</string>
+    <string>First time having him. We’ll see how it goes.</string>
+    <string>Well I hope you pick the right mentor… I’d hate to lose another grad student.</string>
+    <string>Jace flips the lightswitch on and off for effect. [NAME] walks off confused.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Oh, you survived... JK</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]ha...haha…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Option]You have a favorite teacher yet?</string>
+      <string>[None]Amini</string>
+      <string>[None]Arun</string>
+      <string>[None]Conrad</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]He’s definitely a looker.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Sounds like someone is digging VR.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]First time having him. We’ll see how it goes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Well I hope you pick the right mentor… I’d hate to lose another grad student.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Well I hope you pick the right mentor… I’d hate to lose another grad student.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Well I hope you pick the right mentor… I’d hate to lose another grad student.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace flips the lightswitch on and off for effect. [NAME] walks off confused.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

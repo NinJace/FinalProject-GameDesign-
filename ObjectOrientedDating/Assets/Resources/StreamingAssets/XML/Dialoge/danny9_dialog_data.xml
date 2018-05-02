@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>As I knock on Danny’s door, he opens it with a grin on his face. He gestures me into the room, and he takes a seat back at his chair.</string>
+    <string>Thanks for the help the other day, [NAME]! I understood the lectures a lot, and I got full credit on that homework! I hope you enjoy that coffee by the way!</string>
+    <string>No problem! The coffee was a nice gift. So what are you doing?</string>
+    <string>Well, I’m just playing some League of Heroes again to rank up some more. Gotta keep it up, or else I get rusty! You wanna play?</string>
+    <string>I shake my head at his offer, and he frowns a bit. His frown is then replaced with a smile, and he refocuses his gaze onto his monitor. His match had started.</string>
+    <string>So you didn’t go out either, huh? Don’t feel bad! A night alone doesn’t have to be alone with the help of online chat clients! Besides, I prefer the quiet time here at the dorms when everyone is out. Easier to focus on gaming!</string>
+    <string>I get that. So are you winning?</string>
+    <string>Match just started, but it can swing into anyone’s favor depending on the teams and the players. Game of skill and all.</string>
+    <string>Alright, well, I’ll leave you to it then, Danny.</string>
+    <string>Thanks, [NAME]! I’ll see you later!</string>
+    <string>Danny stayed focused on the screen. I let myself out of his room, and closed the door behind me, making sure to lock it. I headed back to my room shortly after…</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As I knock on Danny’s door, he opens it with a grin on his face. He gestures me into the room, and he takes a seat back at his chair.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Thanks for the help the other day, [NAME]! I understood the lectures a lot, and I got full credit on that homework! I hope you enjoy that coffee by the way!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No problem! The coffee was a nice gift. So what are you doing?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Well, I’m just playing some League of Heroes again to rank up some more. Gotta keep it up, or else I get rusty! You wanna play?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I shake my head at his offer, and he frowns a bit. His frown is then replaced with a smile, and he refocuses his gaze onto his monitor. His match had started.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]So you didn’t go out either, huh? Don’t feel bad! A night alone doesn’t have to be alone with the help of online chat clients! Besides, I prefer the quiet time here at the dorms when everyone is out. Easier to focus on gaming!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I get that. So are you winning?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Match just started, but it can swing into anyone’s favor depending on the teams and the players. Game of skill and all.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Alright, well, I’ll leave you to it then, Danny.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Thanks, [NAME]! I’ll see you later!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny stayed focused on the screen. I let myself out of his room, and closed the door behind me, making sure to lock it. I headed back to my room shortly after…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

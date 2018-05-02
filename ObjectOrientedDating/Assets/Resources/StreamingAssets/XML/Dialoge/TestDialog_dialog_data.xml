@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Good afternoon [NAME]!</string>
+    <string>This application is demonstrating how XML can be used for data storage and data transfer.</string>
+    <string>[Positive]Yeah I am!</string>
+    <string>[Positive]Of course!</string>
+    <string>Good!</string>
+    <string>Awesome!</string>
+    <string>See yah!</string>
+    <string>TestDialog</string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Good afternoon [NAME]!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]This application is demonstrating how XML can be used for data storage and data transfer.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Option]Are you enjoying the presentation so far?</string>
+      <string>[Positive]Yeah I am!</string>
+      <string>[Positive]Of course!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Good!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Awesome!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]See yah!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]See yah!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Scene]TestDialog</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

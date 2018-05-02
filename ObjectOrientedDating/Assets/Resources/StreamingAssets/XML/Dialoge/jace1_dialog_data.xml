@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Oh hi, you just moved in right? I’m Jace nice to meet you.</string>
+    <string>[None]Stare at Jace's hand.</string>
+    <string>[None]Shake Jace's hand.</string>
+    <string>Ok... Good luck on your classes.</string>
+    
+    <string>I'm [NAME], nice to meet you.</string>
+    <string>Nice to meet you [NAME], I heard from Seth that there would be a new guy moving in. He’s probably in his room, its room 205, if you want to go meet him. I’m in room 011011 if you need anything. Well I hope you make yourself at home here. Oh yeah and Ryn stays in room 142. I feel like I’m forgetting someone though...</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Oh hi, you just moved in right? I’m Jace nice to meet you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Option]Jace extends his hand towards you, hoping for a handshake.</string>
+      <string>[None]Stare at Jace's hand.</string>
+      <string>[None]Shake Jace's hand.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Ok... Good luck on your classes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I'm [NAME], nice to meet you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+      
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Nice to meet you [NAME], I heard from Seth that there would be a new guy moving in. He’s probably in his room, its room 205, if you want to go meet him. I’m in room 011011 if you need anything. Well I hope you make yourself at home here. Oh yeah and Ryn stays in room 142. I feel like I’m forgetting someone though...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

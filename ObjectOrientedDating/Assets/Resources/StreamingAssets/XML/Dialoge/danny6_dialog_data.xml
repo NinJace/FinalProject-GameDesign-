@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Hey, [NAME]! What brings you at this hour?</string>
+    <string>The gourmet coffee? Oh yeah! That’s my new secret weapon to staying up through the nights and class!</string>
+    <string>[None]No.</string>
+    <string>[None]Yes.</string>
+
+    <string>Ah! I understand! Sorry to ask you, but I appreciate you coming back still!</string>
+    <string>Thanks! I really appreciate it! Now let’s get started!</string>
+    <string>Danny hands me a bag of gourmet.  Item aquired: Gourmet Coffee</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Hey, [NAME]! What brings you at this hour?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]The gourmet coffee? Oh yeah! That’s my new secret weapon to staying up through the nights and class!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Option]You want some? I dunno… This stuff cost a pretty penny. How about this? Help me out with my homework, and I’ll give you some of my [GOURMET COFFEE]! What do you say?</string>
+      <string>[None]No.</string>
+      <string>[None]Yes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Ah! I understand! Sorry to ask you, but I appreciate you coming back still!</string>
+    </ArrayOfString>
+
+
+    <ArrayOfString>
+      <string>[Danny][Dialog]Thanks! I really appreciate it! Now let’s get started!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny hands me a bag of gourmet.  Item aquired: Gourmet Coffee</string>
+    </ArrayOfString>
+    <ArrayOfString>
+    <string>[Danny][Scene]PuzzleTest</string>
+    </ArrayOfString>
+
+    
+  </values>
+</ConvoEntry>

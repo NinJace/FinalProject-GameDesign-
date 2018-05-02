@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>You arrive in Conrad’s domain. His office reminds you of every other office you’ve been in. Very office-y.</string>
+    <string>Came to ask about homework again?</string>
+    <string>Not really. I came to ask about you.</string>
+    <string>What about me?</string>
+
+    <string>Well how do you like it here?</string>
+    <string>I haven’t been here too long, but it’s a good time. The staff and the other students are really nice.</string>
+    <string>How nice?</string>
+    <string>Nice, but not too nice that it’s as weird as the question you just asked.</string>
+    <string>Oops.</string>
+
+    <string>Well I just happened to find a graphics card lying around.</string>
+    <string>That sounds incredibly suspicious. Did you steal that from someone?</string>
+    <string>No. I found it.</string>
+    <string>That’s not very reassuring.</string>
+    <string>He’s totally ruining the mood. How can I fix this? I gotta lay down the smooth moves.</string>
+
+    <string>So... you free tonight?</string>
+    <string>TOO SMOOTH. I’m not trying to hit on him. I’m just trying to engage in casual conversation.</string>
+    <string>I’ve actually got a very important nap to take. But thanks anyway.</string>
+    <string>Wow this could not have gone worse. I might as well have screamed “FAIL ME DADDY.” It’s kind of reassuring that I didn’t, but not really.</string>
+    <string>Yeah, I’ll just see you in class later.</string>
+
+    <string>Oh, I really do appreciate the card though.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You arrive in Conrad’s domain. His office reminds you of every other office you’ve been in. Very office-y.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Came to ask about homework again?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Not really. I came to ask about you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]What about me?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well how do you like it here?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]I haven’t been here too long, but it’s a good time. The staff and the other students are really nice.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]How nice?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Nice, but not too nice that it’s as weird as the question you just asked.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oops.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well I just happened to find a graphics card lying around.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][Dialog]That sounds incredibly suspicious. Did you steal that from someone?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No. I found it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]That’s not very reassuring.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]He’s totally ruining the mood. How can I fix this? I gotta lay down the smooth moves.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]So... you free tonight?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]TOO SMOOTH. I’m not trying to hit on him. I’m just trying to engage in casual conversation.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]I’ve actually got a very important nap to take. But thanks anyway.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Wow this could not have gone worse. I might as well have screamed “FAIL ME DADDY.” It’s kind of reassuring that I didn’t, but not really.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah, I’ll just see you in class later.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Oh, I really do appreciate the card though.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Conrad][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

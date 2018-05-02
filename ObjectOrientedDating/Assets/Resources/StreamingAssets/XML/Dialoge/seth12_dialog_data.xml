@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Seth is staring off at the void, his eyes dull and lifeless. He seems to have lost his touch on reality. Maybe it’s sleep deprivation, maybe it’s the notebook on his hand labeled “Smutty Smut for a Smutty Game.”</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth is staring off at the void, his eyes dull and lifeless. He seems to have lost his touch on reality. Maybe it’s sleep deprivation, maybe it’s the notebook on his hand labeled “Smutty Smut for a Smutty Game.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

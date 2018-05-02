@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hey [NAME], having fun in school yet?</string>
+    <string>I don’t know if I would say fun, but the teachers seem good and you guys have made me feel very welcome.</string>
+    <string>Well we were about to go bar hopping and were hoping you would come with us.</string>
+    <string>Ryn, it’s not really bar hopping if we only go to one bar.</string>
+
+    <string>[None]No</string>
+    <string>a</string>
+    <string>[Positive]Yes</string>
+    <string>Oh goodie, this will be fun.</string>
+    <string>I’m driving so let’s go.</string>
+
+    <string>I follow them to Jace’s car. He owns a blue Nissan Qube. The asymmetrical window hurts my soul, but I’m not the DD tonight!</string>
+    <string>It’s only a few blocks before we get to SPLOOSH. The building is very drab on the outside, a solid gray. The inside however is very different. There is a bar and dancefloor, all covered in various flashing lights. The music is beyond loud. The current song is strangely familiar but you don’t know the name of it. The bouncer marks you all as over 21.</string>
+    <string>We came just in time, the show’s about to start.</string>
+    <string>A woman’s voice comes over the microphone.</string>
+    <string>“Ladies and gentlemen the show is about to start. Please clear the dance floor for your viewing pleasure.”</string>
+
+    <string>She walks out onto stage in heels and a long sequin covered dress. She has lots of makeup on in a way that could only be described as… artistic. Her hair is a neon yellow, so it must be a wig.</string>
+    <string>“Hey y’all, my name is Penny Tration and this is Wednesday night at SPLOOSH. DJ, cue the music.”</string>
+    <string>Toxic by Britney Spears starts playing and suddenly the whole floor is the property of Penny. She has all the moves and even lip syncs to the songs. Some of the audience gives her money, but honestly I didn’t think was exposed enough to count as a stripper. Ryn has gotten a beer and is really getting into it.</string>
+    <string>YAAAAS PENNY! SLAY!</string>
+    <string>WOOOOOO!</string>
+
+    <string>Jace takes out a few bucks and hands them to Penny. She winks and then blows a kiss in return. Penny is still on fire and as the song ends she does a split and the crown loses it. Penny grabs her tips and leaves as the DJ makes and announcement.</string>
+    <string>“Let’s give it up for Penny Tration. We hope you’ve enjoyed the show here at SPLOOSH because you just got... penetrated.”</string>
+    <string>It’s such a dad joke but I can’t help and smirk. The three of us take to the dance floor for a good time. But before I can make it a guy in the crowd stops me. Ryn and Jace don’t notice and I can’t see them in the crowd to wave for help.</string>
+    <string>“Haven’t seen you here before. Are you new in town?”</string>
+    <string>Oh I just moved here for grad school.</string>
+
+    <string>“Well, traveler, my name’s Dave. Mind if I buy you a drink as a housewarming gift?”</string>
+    <string>I haven’t had anything yet and who can pass up a free drink? Dave orders two rum and cokes as we move towards the bar.</string>
+    <string>“Hey I like you boots.”</string>
+    <string>What? I can’t hear you over the music.</string>
+    <string>“I LIKE YOUR BOOTS.”</string>
+
+    <string>Oh, thanks. They were on sale.</string>
+    <string>“Since you’re new here, did you like the drag performance.”</string>
+    <string>Wait where am I?</string>
+    <string>Yeah she was really good.</string>
+    <string>“Yeah you should meet Jake out of drag. He’s a cool dude.”</string>
+
+    <string>Oh now I know where I am. It seems Ryn and Jace left out some important information.</string>
+    <string>Maybe later. Hey, dude I’m sorry, but I’m not actually gay.</string>
+    <string>“Really? That’s surprising. You’re not the only straight person here, but my gaydar’s never been wrong. You came in with Ryn right?”</string>
+    <string>Yeah you know him?</string>
+    <string>“Of course, he’s got a good eye for people who don’t know it yet.”</string>
+
+    <string>Uhmmm. This man seems very mistaken about me and it’s kinds getting awkward. I pull out my phone and fake check my texts.</string>
+    <string>Yeah Ryn is actually looking for me right now. Know here might be?</string>
+    <string>Oh yeah he’s usually over there.</string>
+    <string>I leave before I can really see where he’s pointing. I hope this is the right direction. Finding Ryn isn’t too hard with his haircut and Jace is still with him.</string>
+    <string>Hey! Having fun?</string>
+
+    <string>No. I don’t feel very well. Can we go?</string>
+    <string>Ryn’s oblivious to the conversation, but cooperative. I don’t think he’s even close to drunk, but he sure looks tired. Jace drives us all back home, and I go to my room with a quick goodbye. I close my door and jump into my bed in one smooth motion.</string>
+    <string>Laying there.</string>
+    <string>Thinking.</string>
+    <string>Dave’s words keep going in my head. “People who don’t know it yet.” Could Dave be right? It’s not something I’ve ever considered before. I really just need to sleep.</string>
+
+    <string>b</string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Hey [NAME], having fun in school yet?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I don’t know if I would say fun, but the teachers seem good and you guys have made me feel very welcome.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Well we were about to go bar hopping and were hoping you would come with us.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Ryn, it’s not really bar hopping if we only go to one bar.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Option]Ok. We’re going to SPLOOSH and were really hoping you would go too. C’mon it’ll really be fun.</string>
+      <string>[Positive]Yes</string>
+      <string>[None]No</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][End]a</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Oh goodie, this will be fun.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]I’m driving so let’s go.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I follow them to Jace’s car. He owns a blue Nissan Qube. The asymmetrical window hurts my soul, but I’m not the DD tonight!</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]It’s only a few blocks before we get to SPLOOSH. The building is very drab on the outside, a solid gray. The inside however is very different. There is a bar and dancefloor, all covered in various flashing lights. The music is beyond loud. The current song is strangely familiar but you don’t know the name of it. The bouncer marks you all as over 21.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]We came just in time, the show’s about to start.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]A woman’s voice comes over the microphone.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Ladies and gentlemen the show is about to start. Please clear the dance floor for your viewing pleasure.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]She walks out onto stage in heels and a long sequin covered dress. She has lots of makeup on in a way that could only be described as… artistic. Her hair is a neon yellow, so it must be a wig.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Hey y’all, my name is Penny Tration and this is Wednesday night at SPLOOSH. DJ, cue the music.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Toxic by Britney Spears starts playing and suddenly the whole floor is the property of Penny. She has all the moves and even lip syncs to the songs. Some of the audience gives her money, but honestly I didn’t think was exposed enough to count as a stripper. Ryn has gotten a beer and is really getting into it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]YAAAAS PENNY! SLAY!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]WOOOOOO!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace takes out a few bucks and hands them to Penny. She winks and then blows a kiss in return. Penny is still on fire and as the song ends she does a split and the crown loses it. Penny grabs her tips and leaves as the DJ makes and announcement.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Let’s give it up for Penny Tration. We hope you’ve enjoyed the show here at SPLOOSH because you just got... penetrated.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]It’s such a dad joke but I can’t help and smirk. The three of us take to the dance floor for a good time. But before I can make it a guy in the crowd stops me. Ryn and Jace don’t notice and I can’t see them in the crowd to wave for help.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Haven’t seen you here before. Are you new in town?”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh I just moved here for grad school.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Well, traveler, my name’s Dave. Mind if I buy you a drink as a housewarming gift?”</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]I haven’t had anything yet and who can pass up a free drink? Dave orders two rum and cokes as we move towards the bar.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Hey I like you boots.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]What? I can’t hear you over the music.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“I LIKE YOUR BOOTS.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh, thanks. They were on sale.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Since you’re new here, did you like the drag performance.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Wait where am I?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah she was really good.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Yeah you should meet Jake out of drag. He’s a cool dude.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oh now I know where I am. It seems Ryn and Jace left out some important information.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Maybe later. Hey, dude I’m sorry, but I’m not actually gay.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Really? That’s surprising. You’re not the only straight person here, but my gaydar’s never been wrong. You came in with Ryn right?”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah you know him?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]“Of course, he’s got a good eye for people who don’t know it yet.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Uhmmm. This man seems very mistaken about me and it’s kinds getting awkward. I pull out my phone and fake check my texts.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah Ryn is actually looking for me right now. Know here might be?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oh yeah he’s usually over there.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I leave before I can really see where he’s pointing. I hope this is the right direction. Finding Ryn isn’t too hard with his haircut and Jace is still with him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Hey! Having fun?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No. I don’t feel very well. Can we go?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn’s oblivious to the conversation, but cooperative. I don’t think he’s even close to drunk, but he sure looks tired. Jace drives us all back home, and I go to my room with a quick goodbye. I close my door and jump into my bed in one smooth motion.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Laying there.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Thinking.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dave’s words keep going in my head. “People who don’t know it yet.” Could Dave be right? It’s not something I’ve ever considered before. I really just need to sleep.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End]b</string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

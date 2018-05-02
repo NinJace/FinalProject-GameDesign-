@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>You walk up to room 142 and see a small whiteboard hanging on the outside. The board has a elaborate drawing of a butterfly on it and the name Ryn. You should greet your new neighbors so you knock.</string>
+    <string>*knock knock*</string>
+    <string>Yes? Come in the Door's unlocked.</string>
+    <string>You open the door and step inside the room. Ryn standing in the room, the computer is on. He was clearly just working on something.</string>
+    <string>No, it’s just Facespace that’s open. Very productive I see.</string>
+    <string>Oh! Hi. I don’t think we’ve met before. Actually it’s usually Seth who comes to visit me. My name is Ryn.</string>
+    <string>Nice to meet you, I’m [NAME]. I just entered Grad School here for computer science. I wanted to see who else lived around here.</string>
+    <string>[None]How are the other students here?</string>
+    <string>The other students who live here are very nice. We study together since we’re all in the same major. Feel free to stop by if you need any help in your classes.</string>
+    <string>They’re not all grads, but we usually play Smash in the lobby on the weekends. I main Kirby, but I’m not very good.</string>
+    <string>[None]What kind of homework can I expect?</string>
+    <string>You remember the GRE right? It’s going to work the same way that does. I was expecting a lot of hard tests here but It’s just a bunch of cubes. Wait, I wasn’t supposed to say that.</string>
+    <string>[None]Is the cafeteria any good?</string>
+    <string>Have you ever had spinach and cranberry pizza?</string>
+    <string>No?</string>
+    <string>Well I like it at least.</string>
+    <string>Wow this seems like it’ll be so much fun!</string>
+    <string>As long as you like computers.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You walk up to room 142 and see a small whiteboard hanging on the outside. The board has a elaborate drawing of a butterfly on it and the name Ryn. You should greet your new neighbors so you knock.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]*knock knock*</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Yes? Come in the Door's unlocked.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You open the door and step inside the room. Ryn standing in the room, the computer is on. He was clearly just working on something.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]No, it’s just Facespace that’s open. Very productive I see.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Oh! Hi. I don’t think we’ve met before. Actually it’s usually Seth who comes to visit me. My name is Ryn.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Nice to meet you, I’m [NAME]. I just entered Grad School here for computer science. I wanted to see who else lived around here.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Option]Well this the computer science dorm, so you’ll be seeing us in the hall and in class. I’m a grad student here too. Do you have any questions about the school?</string>
+      <string>[None]How are the other students here?</string>
+      <string>[None]What kind of homework can I expect?</string>
+      <string>[None]Is the cafeteria any good?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]The other students who live here are very nice. We study together since we’re all in the same major. Feel free to stop by if you need any help in your classes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]They’re not all grads, but we usually play Smash in the lobby on the weekends. I main Kirby, but I’m not very good.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Wow this seems like it’ll be so much fun!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]You remember the GRE right? It’s going to work the same way that does. I was expecting a lot of hard tests here but It’s just a bunch of cubes. Wait, I wasn’t supposed to say that.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Wow this seems like it’ll be so much fun!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Have you ever had spinach and cranberry pizza?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Well I like it at least.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Wow this seems like it’ll be so much fun!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]As long as you like computers.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

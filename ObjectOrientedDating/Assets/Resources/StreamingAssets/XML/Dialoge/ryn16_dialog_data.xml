@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I know that I’m supposed to choose a mentor, but I think this is more important.</string>
+    <string>[None]No</string>
+    <string>a</string>
+    <string>[None]Yes</string>
+
+    <string>I approach Ryn’s door. Heart thumping, palms sweaty, mom’s spaghetti. Nervous on more than just the surface. Should I do this? Really? I swallow my nerves and knock on the door. I can’t believe I’m doing this. I can just run now. That is if my legs weren’t turning to jelly.</string>
+    <string>Oh hi [NAME].</string>
+    <string>Uh hi...</string>
+    <string>I’m just frozen like an idiot.</string>
+    <string>You know you can come in my room. We see each other every day.</string>
+
+    <string>Oh yeah I know that I just forgot... for a second.</string>
+    <string>Yeah. You can sit down if you want. I looks like you need to.</string>
+    <string>Oh no I hope he doesn’t think I’m too weird. Quick just think of an excuse.</string>
+    <string>I just gave blood.</string>
+    <string>Oh you need some food?</string>
+
+    <string>No I also just ate.</string>
+    <string>Ok well if you change your mind, let me know. Anyway what did you want?</string>
+    <string>I wanted to talk to you.</string>
+    <string>Check.</string>
+    <string>Well about other things also. I’ve been meaning to apologize to you for taking your cactus. I really didn’t know you when I took it, and now that I do you’re such a nice guy that I really shouldn’t have. So I brought you a replacement cactus.</string>
+
+    <string>Oh you really didn’t have to. But thank you so much.</string>
+    <string>Yeah I don’t know anything about cacti but this one was on sale at Lowes.</string>
+    <string>That’s a Mammillaria Spinosissima. Some people call it an Irish Gentleman because of it’s red spines.</string>
+    <string>That’s really cool actually. Glad to know that.</string>
+    <string>Sometimes I come in with that knowledge bomb.</string>
+
+    <string>I was also hoping you would help we with VR again.</string>
+    <string>Really you’ve picked up that class almost as well as I have, and I don’t even know if you have a background in unity.</string>
+    <string>Well you know, It’s always good to run ideas by your friends.</string>
+    <string>So we’re officially friends now.</string>
+    <string>I think I’m about to blush. Did he call me his friend and a gentleman? I’m definitely reading too much into it. Ok me, stay cool.</string>
+
+    <string>You’ve been so helpful to me coming here. Of course we’re friends. We wouldn’t be anything else.</string>
+    <string>We wouldn’t?</string>
+    <string>OK. HE’S GOT TO KNOW RIGHT. THIS MAN IS TAUNTING ME.</string>
+    <string>We...</string>
+    <string>We what?</string>
+
+    <string>Whatever you’re thinking. You can just say.</string>
+    <string>Well I uh think I like you.</string>
+    <string>Ya think?</string>
+    <string>Ok I KNOW I like you but I’m not sure how you feel.</string>
+    <string>Give me moment.</string>
+
+    <string>Oh no I totally blew it. He’s stalling to let me down lightly. It’s fine this won’t be too awkward. Right. We can still be friends. Right?</string>
+    <string>I told you how I name all my cacti right. What do you think I should name this one?</string>
+    <string>Well the one I took was named Kevin. You could make this one Kevin the Second.</string>
+    <string>I was thinking of something else.</string>
+    <string>Hmmm... You seem to be besties with Seth. Maybe you should name it after him.</string>
+
+    <string>That’s not actually a bad idea. You have no idea why I named my old cactus Kevin do you?</string>
+    <string>It’s because it looks like the pickle from Spongebob.</string>
+    <string>That was a sea cucumber, and no that’s not the reason. Do you want me to give you a hint?</string>
+    <string>Yeah sure. I don’t think I’m gonna get it though.</string>
+    <string>Well I think I’m going to name the new one [NAME].</string>
+
+    <string>oh. OH. OOOHH. I think I get it now.</string>
+    <string>So is that a yes?</string>
+    <string>It’s a yes.</string>
+    <string>And I’m counting the club as our first date.</string>
+    <string>Does that make this our second date?</string>
+
+    <string>Do you want it to be?</string>
+    <string>Yeah that would be nice.</string>
+    <string>Ryn leans in and I close my eyes.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I know that I’m supposed to choose a mentor, but I think this is more important.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Option]Do you wish to continue? You cannot go back.</string>
+      <string>[None]No</string>
+      <string>[None]Yes</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End]a</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I approach Ryn’s door. Heart thumping, palms sweaty, mom’s spaghetti. Nervous on more than just the surface. Should I do this? Really? I swallow my nerves and knock on the door. I can’t believe I’m doing this. I can just run now. That is if my legs weren’t turning to jelly.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Oh hi [NAME].</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Uh hi...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I’m just frozen like an idiot.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]You know you can come in my room. We see each other every day.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh yeah I know that I just forgot... for a second.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Yeah. You can sit down if you want. I looks like you need to.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oh no I hope he doesn’t think I’m too weird. Quick just think of an excuse.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I just gave blood.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Oh you need some food?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No I also just ate.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Ok well if you change your mind, let me know. Anyway what did you want?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I wanted to talk to you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Check.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well about other things also. I’ve been meaning to apologize to you for taking your cactus. I really didn’t know you when I took it, and now that I do you’re such a nice guy that I really shouldn’t have. So I brought you a replacement cactus.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Oh you really didn’t have to. But thank you so much.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah I don’t know anything about cacti but this one was on sale at Lowes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]That’s a Mammillaria Spinosissima. Some people call it an Irish Gentleman because of it’s red spines.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]That’s really cool actually. Glad to know that.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Sometimes I come in with that knowledge bomb.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I was also hoping you would help we with VR again.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Really you’ve picked up that class almost as well as I have, and I don’t even know if you have a background in unity.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well you know, It’s always good to run ideas by your friends.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]So we’re officially friends now.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I think I’m about to blush. Did he call me his friend and a gentleman? I’m definitely reading too much into it. Ok me, stay cool.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]You’ve been so helpful to me coming here. Of course we’re friends. We wouldn’t be anything else.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]We wouldn’t?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]OK. HE’S GOT TO KNOW RIGHT. THIS MAN IS TAUNTING ME.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]We...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]We what?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Whatever you’re thinking. You can just say.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Well I uh think I like you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Ya think?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Ok I KNOW I like you but I’m not sure how you feel.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Give me moment.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oh no I totally blew it. He’s stalling to let me down lightly. It’s fine this won’t be too awkward. Right. We can still be friends. Right?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I told you how I name all my cacti right. What do you think I should name this one?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well the one I took was named Kevin. You could make this one Kevin the Second.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I was thinking of something else.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hmmm... You seem to be besties with Seth. Maybe you should name it after him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]That’s not actually a bad idea. You have no idea why I named my old cactus Kevin do you?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]It’s because it looks like the pickle from Spongebob.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]That was a sea cucumber, and no that’s not the reason. Do you want me to give you a hint?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah sure. I don’t think I’m gonna get it though.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Well I think I’m going to name the new one [NAME].</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]oh. OH. OOOHH. I think I get it now.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]So is that a yes?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]It’s a yes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]And I’m counting the club as our first date.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Does that make this our second date?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Do you want it to be?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah that would be nice.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn leans in and I close my eyes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Win)</string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

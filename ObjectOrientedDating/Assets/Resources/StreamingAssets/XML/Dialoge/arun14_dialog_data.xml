@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>[None]Just dropping by with a few questions from the lecture.</string>
+    <string>[None]So, word on the street is you’ve had some problems with gardening?</string>
+    <string>Ahhh okay take a seat and let’s go over them.</string>
+    <string>Yes</string>
+    <string>Dr. Arun happily answers your questions</string>
+    <string>No beating around the bush, I like it.</string>
+    <string>His silence is deafening. Mmm</string>
+    <string>So I’ve got this cactus…</string>
+    <string>Does that actually count for gardening? Heh heh heh you barely have to water it.</string>
+    <string>But you do have to water it.</string>
+    <string>You shake your finger at Arun.</string>
+    <string>I feel like it counts</string>
+    <string>Dr. Arun thinks for a second…</string>
+    <string>I’d agree with that.That’s really thoughtful, thank you.</string>
+    <string>Awkward silence…</string>
+    <string>There he goes again not talking...oh my…</string>
+    <string>Well since you brought me the touch controller back and gave me this nice gift how about we go eat again. This time somewhere nicer to make up for the value of that controller.</string>
+    <string>Oh, nice food I like the sound of that!</string>
+    <string>Oh man, I wonder if I choose him as a mentor if he will feed me all the time? Do it for the food…</string>
+    <string>You both leave and head head to the nicest local Italian restaurant in town.</string>
+    <string>You have casual conversation about school he asks how your other classes are going.</string>
+    <string>So have you chosen your mentor yet?</string>
+    <string>Actually, I haven’t but, considering we are here I guess I can ask… Will you be my mentor Dr. Arun?</string>
+    <string>Sure</string>
+    <string>Oooof straight to the point. Never gets old.</string>
+    <string>You both sit and converse about research topics and VR stuff.</string>
+    <string>With you mentor chosen and your stomach full you head back to your dorm and brace yourself for what’s next.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Arun][Option]Ah hello uh… [NAME] right? What can I help you today?</string>
+      <string>[None]Just dropping by with a few questions from the lecture.</string>
+      <string>[None]So, word on the street is you’ve had some problems with gardening?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Ahhh okay take a seat and let’s go over them.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Yes</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Arun happily answers your questions</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No beating around the bush, I like it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]His silence is deafening. Mmm</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]So I’ve got this cactus…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Does that actually count for gardening? Heh heh heh you barely have to water it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]But you do have to water it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You shake your finger at Arun.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I feel like it counts</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Dr. Arun thinks for a second…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]I’d agree with that.That’s really thoughtful, thank you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Awkward silence…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]There he goes again not talking...oh my…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Well since you brought me the touch controller back and gave me this nice gift how about we go eat again. This time somewhere nicer to make up for the value of that controller.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Oh, nice food I like the sound of that!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oh man, I wonder if I choose him as a mentor if he will feed me all the time? Do it for the food…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You both leave and head head to the nicest local Italian restaurant in town.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You have casual conversation about school he asks how your other classes are going.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]So have you chosen your mentor yet?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Actually, I haven’t but, considering we are here I guess I can ask… Will you be my mentor Dr. Arun?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Sure</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Oooof straight to the point. Never gets old.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You both sit and converse about research topics and VR stuff.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]With you mentor chosen and your stomach full you head back to your dorm and brace yourself for what’s next.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Win)</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

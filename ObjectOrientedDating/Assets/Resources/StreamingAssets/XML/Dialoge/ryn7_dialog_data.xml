@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Ryn is watching YouTube on his phone before class starts. I wave towards him.</string>
+    <string>Morning Ryn</string>
+    <string>It’s Wednesday my dudes.</string>
+    <string>Ryn gives me a wink and goes back to his video.</string>
+
+    <string>I think about frogs for longer than I care to admit.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn is watching YouTube on his phone before class starts. I wave towards him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Morning Ryn</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]It’s Wednesday my dudes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Ryn gives me a wink and goes back to his video.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I think about frogs for longer than I care to admit.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

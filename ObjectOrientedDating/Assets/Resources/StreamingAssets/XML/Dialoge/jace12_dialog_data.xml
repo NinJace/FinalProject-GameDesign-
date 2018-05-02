@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>[None]Wow I never noticed how much grey hair you have.</string>
+    <string>Life’s hard man. Half of these are from PL and the other half from genetics.</string>
+    <string>[None]Man you’re old, look at that grey.</string>
+    <string>Yeah and I’m still here. You will be old by the time you finish too.</string>
+
+    <string>Maybe I’ll be like Dr. Amini and will be able to pull it off as I get older.</string>
+    <string>You recall Dr. Amini’s great hair with his touch of grey. Jace pulls a box from under his bed.</string>
+    <string>There is no way he doesn’t use a little of thissss.</string>
+    <string>Jace holds up a box labeled Touch Of Grey.</string>
+    <string>[None]Do you use it?</string>
+
+    <string>No,I found it. Why do you need it?</string>
+    <string>Sure I’ll take it.</string>
+    <string>[None]Can I have it?</string>
+    <string>Yeah I sure as hell don’t need it. I have enough as it.</string>
+    <string>Please tell me you are going to give that to Dr. Amini. That would be amazing! You better tell me all about it.</string>
+
+    <string>Jace stares deeply into your eyes.</string>
+    <string>You better tell me about it.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Option]You see Jace Sitting on his bed in his room… His room is pretty bright, you notice he has a lot of grey hair.</string>
+      <string>[None]Wow I never noticed how much grey hair you have.</string>
+      <string>[None]Man you’re old, look at that grey.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Life’s hard man. Half of these are from PL and the other half from genetics.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Maybe I’ll be like Dr. Amini and will be able to pull it off as I get older.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Yeah and I’m still here. You will be old by the time you finish too.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Maybe I’ll be like Dr. Amini and will be able to pull it off as I get older.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You recall Dr. Amini’s great hair with his touch of grey. Jace pulls a box from under his bed.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]There is no way he doesn’t use a little of thissss.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace holds up a box labeled Touch Of Grey.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Option] </string>
+      <string>[None]Do you use it?</string>
+      <string>[None]Can I have it?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]No,I found it. Why do you need it?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Sure I’ll take it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Please tell me you are going to give that to Dr. Amini. That would be amazing! You better tell me all about it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Yeah I sure as hell don’t need it. I have enough as it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Please tell me you are going to give that to Dr. Amini. That would be amazing! You better tell me all about it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace stares deeply into your eyes.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Jace][Dialog]You better tell me about it.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Scene]PuzzleTest</string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

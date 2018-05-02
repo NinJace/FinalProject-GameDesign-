@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Hi Jace!</string>
+    <string>Jace is crouching over staring in the corner. His hair is a mess and seems a bit out of it.   He doesn’t turn when you approach him.</string>
+    <string>Shhhh… you will scare the ladybug</string>
+    <string>okay… walking away…</string>
+
+    <string>Not what I was expecting to see today. I might need to check up on him later… Hopefully he will make it to class today.  </string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Hi Jace!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace is crouching over staring in the corner. His hair is a mess and seems a bit out of it.   He doesn’t turn when you approach him.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Shhhh… you will scare the ladybug</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]okay… walking away…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Not what I was expecting to see today. I might need to check up on him later… Hopefully he will make it to class today.  </string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Jace][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

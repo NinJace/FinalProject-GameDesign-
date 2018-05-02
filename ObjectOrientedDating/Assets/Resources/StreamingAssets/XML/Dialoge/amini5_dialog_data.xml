@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Ah! Hello, [NAME]! It is good to see you…</string>
+    <string>Aminini gives off a heavy yawn. I can clearly see bags under his eyes.</string>
+    <string>Are you okay, professor? You look a bit tired…</string>
+    <string>Do not worry. I just need some sleep, or some coffee. Anyway, what can I do for you today?</string>
+
+    <string>Yeah I’ve got a few questions on the first assignment you gave us. Do you think you could look at my work.</string>
+    <string>I proceeded to ask Amini questions about Cloud Computing. He would answer my questions, although he seemed exhausted and occasionally yawned every so often. Every time he yawned, he would apologize.</string>
+    <string>I hope I managed to answer all of your questions, NAME. Once again, I apologize for my yawning. Anyway, I need to get some sleep now. Thank you for coming!</string>
+    <string>Make sure you take some big naps.</string>
+    <string>I exited Amini’s office, and made my way back to the dorms.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Ah! Hello, [NAME]! It is good to see you…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Aminini gives off a heavy yawn. I can clearly see bags under his eyes.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Are you okay, professor? You look a bit tired…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Do not worry. I just need some sleep, or some coffee. Anyway, what can I do for you today?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]Yeah I’ve got a few questions on the first assignment you gave us. Do you think you could look at my work.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I proceeded to ask Amini questions about Cloud Computing. He would answer my questions, although he seemed exhausted and occasionally yawned every so often. Every time he yawned, he would apologize.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Amini][Dialog]I hope I managed to answer all of your questions, NAME. Once again, I apologize for my yawning. Anyway, I need to get some sleep now. Thank you for coming!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Make sure you take some big naps.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I exited Amini’s office, and made my way back to the dorms.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

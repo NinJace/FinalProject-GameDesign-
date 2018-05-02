@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>This has been one of the most exciting weeks I’ve had. Much better than undergrad.</string>
+    <string>As long as I have a good relation with one of my teachers I should be fine this semester.</string>
+    <string>I go to bed, confident.</string>
+    <string>And yet, concerned.</string>
+
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]This has been one of the most exciting weeks I’ve had. Much better than undergrad.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As long as I have a good relation with one of my teachers I should be fine this semester.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I go to bed, confident.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]And yet, concerned.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

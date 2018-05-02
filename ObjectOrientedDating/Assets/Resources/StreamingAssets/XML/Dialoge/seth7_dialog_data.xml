@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Do you even feel like you’re being watched?</string>
+    <string>No…?</string>
+    <string>Like there’s always someone there. Scrutinizing your every action.</string>
+    <string>Like your life's on rails and deviation from the norm will result in punishment.</string>
+
+    <string>Like arbitrary social constructs?</string>
+    <string>Like your entire life is a simulation controlled by someone else.</string>
+    <string>Yeah... never.</string>
+    <string>I guess we can leave it a arbitrary social constructs then.</string>
+    <string>I’ve got things to do now.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Do you even feel like you’re being watched?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No…?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Like there’s always someone there. Scrutinizing your every action.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Like your life's on rails and deviation from the norm will result in punishment.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Like arbitrary social constructs?</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]Like your entire life is a simulation controlled by someone else.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Yeah... never.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]I guess we can leave it a arbitrary social constructs then.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I’ve got things to do now.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

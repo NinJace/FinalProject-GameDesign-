@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>The first day of classes went fine. I should easily fit in at my new school. My bed calls me.</string>
+    <string>Getting up the second day is a bit more difficult. I’m not used to consistently waking up so early.</string>
+    <string>I have class again today.</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]The first day of classes went fine. I should easily fit in at my new school. My bed calls me.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Getting up the second day is a bit more difficult. I’m not used to consistently waking up so early.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I have class again today.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

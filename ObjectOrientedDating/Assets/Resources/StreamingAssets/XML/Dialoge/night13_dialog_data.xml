@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Having one on one time with the professors helped me to know them a lot better. I don’t have class the rest of the week, so the world is my oyster.</string>
+    <string>I have weird dream tonight. The voice of God comes to me and says “If you missed the item for the office hours today, you can’t go get it later.”</string>
+    <string>Ominous.</string>
+    <string>He keeps talking, “Also the game autosaves each scene so you’ll have to restart from the beginning.”</string>
+
+    <string>The nightmare wakes me up.</string>
+    <string> </string>
+  
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][End]Having one on one time with the professors helped me to know them a lot better. I don’t have class the rest of the week, so the world is my oyster.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]I have weird dream tonight. The voice of God comes to me and says “If you missed the item for the office hours today, you can’t go get it later.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]Ominous.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]He keeps talking, “Also the game autosaves each scene so you’ll have to restart from the beginning.”</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End]The nightmare wakes me up.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

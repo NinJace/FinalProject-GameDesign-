@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Jace leaves his room looking like death incarnate.</string>
+    <string>Woah what happened to you? Are you hung over?</string>
+    <string>Shhhh... I drank when I got home last night... life’s hard.</string>
+    <string>Is he still drunk?</string>
+
+    <string>Jace stumbles off heading towards the bathroom.</string>
+    <string>wow</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace leaves his room looking like death incarnate.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Woah what happened to you? Are you hung over?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]Shhhh... I drank when I got home last night... life’s hard.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Is he still drunk?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Jace stumbles off heading towards the bathroom.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]wow</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

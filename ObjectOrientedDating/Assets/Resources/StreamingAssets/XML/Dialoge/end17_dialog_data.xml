@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>With the semester starting you move into your dorms and meet some of the other residence of the dorm. The game will not progress until you speak to the 4 residence. </string>
+    <string>You walk up to room 142 and see a small whiteboard hanging on the outside. The board has a elaborate drawing of a butterfly on it and the name Ryn. You should greet your new neighbors so you knock.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]With the semester starting you move into your dorms and meet some of the other residence of the dorm. The game will not progress until you speak to the 4 residence. </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You walk up to room 142 and see a small whiteboard hanging on the outside. The board has a elaborate drawing of a butterfly on it and the name Ryn. You should greet your new neighbors so you knock.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]EndGame(Lose)</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+
+

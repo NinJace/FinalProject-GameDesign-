@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>I see Ryn later that night</string>
+    <string>Not late anymore?</string>
+    <string>I could start being preemptively late for tomorrow if you want. But no, I’m done for the day.</string>
+    <string>You seem a lot more relaxed after class.</string>
+
+    <string>I’m basically always asleep. It’s just the teachers care if I fall asleep on them. If I accidentally fall asleep while talk to you, it’s not your fault.</string>
+    <string>So you have narcolepsy then?</string>
+    <string>No. I just refuse to drink coffee.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I see Ryn later that night</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Not late anymore?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I could start being preemptively late for tomorrow if you want. But no, I’m done for the day.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]You seem a lot more relaxed after class.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I’m basically always asleep. It’s just the teachers care if I fall asleep on them. If I accidentally fall asleep while talk to you, it’s not your fault.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]So you have narcolepsy then?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]No. I just refuse to drink coffee.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+   
+  </values>
+</ConvoEntry>

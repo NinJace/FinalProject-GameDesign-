@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Soooo, how was your first day? Exciting huh?</string>
+    <string>This isn’t my first time at college. Just my first time here.</string>
+    <string>[None]Machine Learning</string>
+    <string>Yeah. Machine learning sounds like it’s going to be a difficult class. I don’t know much about it, but I really like the teacher.</string>
+
+    <string>The other classes should be good too. I’m just hoping the work won’t overwhelm me. I don’t expect it to.</string>
+    <string>If that’s it, I’ve got some work to go back to. See you tomorrow!</string>
+    <string> </string>
+    <string>[None]VR</string>
+    <string>I did a little bit of research on VR in my undergraduate studies, no programing though. I’m just hoping Arun doesn’t make us develop with the headset on.</string>
+
+    <string>[None]Cloud Computing</string>
+    <string>I hate to admit this, but I thought the class would have more to do with weather. Don’t laugh at me, and definitely don’t tell Amini.</string>
+    <string>I hate to admit this, but I thought the class would have more to do with weather. Don’t laugh at me, and definitely don’t tell Amini.</string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Soooo, how was your first day? Exciting huh?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]This isn’t my first time at college. Just my first time here.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Option]The question still applies. Any particular class you’re looking forward to?</string>
+      <string>[None]Machine Learning</string>
+      <string>[None]VR</string>
+      <string>[None]Cloud Computing</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Yeah. Machine learning sounds like it’s going to be a difficult class. I don’t know much about it, but I really like the teacher.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]The other classes should be good too. I’m just hoping the work won’t overwhelm me. I don’t expect it to.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]If that’s it, I’ve got some work to go back to. See you tomorrow!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string> </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I did a little bit of research on VR in my undergraduate studies, no programing though. I’m just hoping Arun doesn’t make us develop with the headset on.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]The other classes should be good too. I’m just hoping the work won’t overwhelm me. I don’t expect it to.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Ryn][Dialog]I hate to admit this, but I thought the class would have more to do with weather. Don’t laugh at me, and definitely don’t tell Amini.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]The other classes should be good too. I’m just hoping the work won’t overwhelm me. I don’t expect it to.</string>
+    </ArrayOfString>
+    
+
+  </values>
+</ConvoEntry>

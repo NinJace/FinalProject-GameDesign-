@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ryn/Scenes/MenuTest.unity
+    guid: 60ce909f9197256459e23097b1b5f54e
+  - enabled: 1
+    path: Assets/Ryn/Scenes/PuzzleTest.unity
+    guid: 086b8f96e8b1e814dbfe978bfb57d8e8
+  - enabled: 1
+    path: Assets/Jace/Scenes/tutorial.unity
+    guid: fea8732ce3e11ae41afebedf19a0ec98
+  - enabled: 1
+    path: Assets/Ryn/Scenes/TutorialDemo.unity
+    guid: 6fc6e179e95896843b8488378955679d
+  - enabled: 1
+    path: Assets/Jace/Scenes/Dorm.unity
+    guid: b1f64f2b5a93ea3459b0e0b25d28f814
+  - enabled: 1
+    path: Assets/Seth/Scenes/TestDialog.unity
+    guid: 029fec3e6206d874fba592e7d4ec1234
+  - enabled: 0
+    path: Assets/Seth/Scenes/Yay!.unity
+    guid: fc65368cd729526439533f8595be65d0
+  - enabled: 1
+    path: Assets/Jace/Scenes/Oliver.unity
+    guid: 976de7e3e44404d4cb1445de35ea2220
+  - enabled: 1
+    path: Assets/Jace/Scenes/EndGame(Win).unity
+    guid: e656ce34d4705824db90d96bc31df8c5
+  - enabled: 1
+    path: Assets/Jace/Scenes/EndGame(Lose).unity
+    guid: 71991afa867aa8b489c3195636392115

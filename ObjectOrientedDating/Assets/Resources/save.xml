@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <arunRelation>0</arunRelation>
+  <aminiRelation>0</aminiRelation>
+  <conradRelation>0</conradRelation>
+  <rynRelation>0</rynRelation>
+  <sethRelation>0</sethRelation>
+  <jaceRelation>0</jaceRelation>
+  <dannyRelation>0</dannyRelation>
+  <playerName>Dude</playerName>
+  <scene>3</scene>
+  <puzzleLevel>tutorial</puzzleLevel>
+  <location>dorm</location>
+  <person />
+  <items />
+</SaveData>

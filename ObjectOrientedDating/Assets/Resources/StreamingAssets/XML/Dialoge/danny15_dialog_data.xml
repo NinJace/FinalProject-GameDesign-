@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Wasn’t expecting to see you here tonight. Don’t you have something more important to do?</string>
+    <string>You feel uncomfortable and leave him alone.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Wasn’t expecting to see you here tonight. Don’t you have something more important to do?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You feel uncomfortable and leave him alone.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

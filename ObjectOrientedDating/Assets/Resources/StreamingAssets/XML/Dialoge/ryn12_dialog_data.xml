@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I still haven’t figured out if there were ulterior motives behind Ryn’s actions, but everything seems normal. This morning was almost too awkward.</string>
+    <string>Hey, how were the office hours?</string>
+    <string>Very normal.</string>
+    <string>...</string>
+
+    <string>Glad to hear.</string>
+    <string>I think this conversation is over.</string>
+    <string>Well, see you later then.</string>
+    <string>Goodnight.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I still haven’t figured out if there were ulterior motives behind Ryn’s actions, but everything seems normal. This morning was almost too awkward.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Hey, how were the office hours?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Very normal.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Glad to hear.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I think this conversation is over.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well, see you later then.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][Dialog]Goodnight.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Ryn][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

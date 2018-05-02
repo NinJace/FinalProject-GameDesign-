@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Heeeey, wassup?</string>
+    <string>Nothing much, still just trying to get used to the new surroundings. You?</string>
+    <string>Enjoying the quiet before the storm; thankfully the homework hasn’t really picked up yet.</string>
+    <string>I feel that. Do you have any ideas what to do after I’m done with my homework?</string>
+
+    
+    <string>[None]Mojo: The Grouping?! Sure, I’d love to play sometime!”</string>
+    <string>[None]Uh…. I don’t really…. Like card games.</string>
+    <string>[None]I think I’ll just go get extra caught up on my homework.</string>
+    <string>[None]If you teach me, I’m up for trying it</string>
+
+    <string>Heck yeah! You know, I wasn’t too sure about you to begin with, but now I guess you’re pretty cool. Just let me know when you’re ready. See yah!</string>
+    <string>Excuse me? Did I just here that blasphemy come from your mouth? Get out. Now. And NEVER come back!</string>
+    <string>That’s pretty fair. Just remember, I’m always here if you wanna play.</string>
+    <string>Cool! I’m gonna finish the little homework I do have, just stop by any time and remind me.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Heeeey, wassup?</string>
+    </ArrayOfString>
+    
+      <ArrayOfString>
+      <string>[Player][Dialog]Nothing much, still just trying to get used to the new surroundings. You?</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Seth][Dialog]Enjoying the quiet before the storm; thankfully the homework hasn’t really picked up yet.</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Player][Dialog]I feel that. Do you have any ideas what to do after I’m done with my homework?</string>
+    </ArrayOfString>
+    
+
+    <ArrayOfString>
+      <string>[Seth][Option] Well, besides studying more homework- which is what I would recommend- I guess you could look around the dorms a little more. Or you could play some Mojo with me, I’m ready for that anytime.</string>
+      <string>[None]Mojo: The Grouping?! Sure, I’d love to play sometime!”</string>
+      <string>[None]Uh…. I don’t really…. Like card games.</string>
+      <string>[None]I think I’ll just go get extra caught up on my homework.</string>
+      <string>[None]If you teach me, I’m up for trying it</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Seth][Dialog]Heck yeah! You know, I wasn’t too sure about you to begin with, but now I guess you’re pretty cool. Just let me know when you’re ready. See yah!</string>
+    </ArrayOfString>
+    
+  
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]Excuse me? Did I just here that blasphemy come from your mouth? Get out. Now. And NEVER come back!</string>
+    </ArrayOfString>
+
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]That’s pretty fair. Just remember, I’m always here if you wanna play.</string>
+    </ArrayOfString>
+
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]Cool! I’m gonna finish the little homework I do have, just stop by any time and remind me.</string>
+    </ArrayOfString>
+  
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    
+  
+  </values>
+</ConvoEntry>

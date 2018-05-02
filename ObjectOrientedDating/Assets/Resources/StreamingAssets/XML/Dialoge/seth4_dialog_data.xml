@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hey, babe, what’s up?</string>
+    <string>Nothing much, just thinking about the Machine Learning Material. I went to Dr. Conrad’s office hours a few times, but I feel like the concepts are just out-of-reach.</string>
+    <string>You didn’t learn anything?!</string> 
+    <string>Along from Conrad needing a new graphics card, not really.</string>
+    <string>Well, let me see what you’ve got so far.</string>
+    <string>You and Seth look at your homework.</string>
+    <string>Not bad, you seem to be on the right track.</string>
+    <string>Do you have any suggestions?</string>
+    <string>Machine Learning can be hard, but just have faith in yourself and Conrad. That man once taught a Programming Languages class while recovering from surgery. Don’t worry, you’ll be fine. Just keep going to office hours, and here- give him this old graphics card I have laying around. Now go do your thing [NAME]!</string>
+  <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Hey, babe, what’s up?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Nothing much, just thinking about the Machine Learning Material. I went to Dr. Conrad’s office hours a few times, but I feel like the concepts are just out-of-reach.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]You didn’t learn anything?!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Along from Conrad needing a new graphics card, not really.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Well, let me see what you’ve got so far.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You and Seth look at your homework.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Not bad, you seem to be on the right track.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Do you have any suggestions?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Machine Learning can be hard, but just have faith in yourself and Conrad. That man once taught a Programming Languages class while recovering from surgery. Don’t worry, you’ll be fine. Just keep going to office hours, and here- give him this old graphics card I have laying around. Now go do your thing [NAME]!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Scene]PuzzleTest</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

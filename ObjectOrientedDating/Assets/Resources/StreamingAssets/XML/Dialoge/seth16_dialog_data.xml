@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>You see Seth laying on the ground, limbs outstretched. Is he even alive?</string>
+    <string>Yes, I’m finally done!! The game is done. I’m done, you’re almost done.</string>
+    <string>Seth looks at you.</string>
+    <string>Good luck [NAME], I hope you chose right. I’ll see you next time. Too bad we never got to play cards.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]You see Seth laying on the ground, limbs outstretched. Is he even alive?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Yes, I’m finally done!! The game is done. I’m done, you’re almost done.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth looks at you.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Good luck [NAME], I hope you chose right. I’ll see you next time. Too bad we never got to play cards.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

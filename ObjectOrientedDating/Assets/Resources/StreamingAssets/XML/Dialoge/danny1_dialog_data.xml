@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hello there! I’m Danny! You must be the new grad student I’ve heard so much about!</string>
+    <string>Danny gives a friendly smile, one hand raised as if to wave.</string>
+    <string>Nice to meet you Danny. I’m [NAME].</string>
+    <string>Yeah, welcome to grad school! It’s just like undergrad but harder and sadder. And instead of drinking at parties for fun, you do it to forget about the work you’re procrastinating.</string>
+    
+    <string>Enjoy!</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Hello there! I’m Danny! You must be the new grad student I’ve heard so much about!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny gives a friendly smile, one hand raised as if to wave.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Nice to meet you Danny. I’m [NAME].</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Yeah, welcome to grad school! It’s just like undergrad but harder and sadder. And instead of drinking at parties for fun, you do it to forget about the work you’re procrastinating.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Enjoy!</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

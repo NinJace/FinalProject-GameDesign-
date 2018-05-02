@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I see Jace face first in his textbook asleep… I should leave him be.</string>
+    <string>*mumbles in sleep* baka...</string>
+    <string> </string>
+   
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I see Jace face first in his textbook asleep… I should leave him be.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][Dialog]*mumbles in sleep* baka...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Jace][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

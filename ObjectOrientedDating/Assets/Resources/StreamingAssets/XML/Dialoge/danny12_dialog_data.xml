@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+  
+    <string>Start</string>
+    <string>Oh hey, [NAME]! Sorry! I’m really swamped with all these assignments! You know that feeling when you have a ton of work to do, but you just wanna push it off till the last minute? I keep getting that! Maybe if I didn’t, I wouldn’t be so swamped will school work all the time…</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Oh hey, [NAME]! Sorry! I’m really swamped with all these assignments! You know that feeling when you have a ton of work to do, but you just wanna push it off till the last minute? I keep getting that! Maybe if I didn’t, I wouldn’t be so swamped will school work all the time…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

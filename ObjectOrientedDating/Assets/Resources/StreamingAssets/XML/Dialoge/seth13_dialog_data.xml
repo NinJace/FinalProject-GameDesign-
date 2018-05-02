@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>Seth I need some advice.</string>
+    <string>I’m all ears.</string>
+    <string>I don’t know who to pick to be my mentor.</string>
+    <string>Well is there any particular professor you enjoy? Personality or class-wise?</string>
+
+    <string>Maybe there’s one.</string>
+    <string>There’s not really a wrong choice here. Whoever you pick, you’ll still do fine in school.</string>
+    <string>Seth’s words give me hope and fill me with determination.</string>
+    <string> </string>
+    
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[player][Dialog]Seth I need some advice.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]I’m all ears.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I don’t know who to pick to be my mentor.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Well is there any particular professor you enjoy? Personality or class-wise?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Maybe there’s one.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Seth][Dialog]There’s not really a wrong choice here. Whoever you pick, you’ll still do fine in school.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Seth’s words give me hope and fill me with determination.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End] </string>
+    </ArrayOfString>
+    
+  </values>
+</ConvoEntry>

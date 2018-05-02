@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Hey, [NAME]! Good to see you!</string>
+    <string>Professor Conrad seemed focused on the computer, a somewhat frustrated look on his face.</string>
+    <string>Sorry, [NAME]. I’m trying to run this neural network, but it’s taking longer than I’d like. Did you know that I use Graphics Cards to run my linear algebra calculations?</string>
+    <string>No?</string>
+
+    <string>I just finished my homework for you class. I wondering if you could make  sure I did it right.</string>
+    <string>Conrad’s expression softens as he turns his focus towards me, and we talk about his class for a while...</string>
+    <string>Well, that was good discussion, but I’m afraid my office hours are over, NAME. We can continue our discussion at a later time. Have a good day!</string>
+    <string>I proceeded to leave Conrad’s office, and made my way back to the dorm.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Hey, [NAME]! Good to see you!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Professor Conrad seemed focused on the computer, a somewhat frustrated look on his face.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Sorry, [NAME]. I’m trying to run this neural network, but it’s taking longer than I’d like. Did you know that I use Graphics Cards to run my linear algebra calculations?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]I just finished my homework for you class. I wondering if you could make  sure I did it right.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Conrad’s expression softens as he turns his focus towards me, and we talk about his class for a while...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][Dialog]Well, that was good discussion, but I’m afraid my office hours are over, NAME. We can continue our discussion at a later time. Have a good day!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I proceeded to leave Conrad’s office, and made my way back to the dorm.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Conrad][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

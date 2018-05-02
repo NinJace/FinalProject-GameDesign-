@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema%22%3E">
+  <keys>
+    <string>Start</string>
+    <string>As I knocked on the door, I could hear yelling from the room. I could hear some stumbling in the room and footsteps headed towards the door. Danny opens it to reveal himself.</string>
+    <string>Oh! Hello again, [NAME]! I’m just gaming again, but don’t mind me! If I’ve been yelling, then I apologize. I’ve been trying out this new game, Dank Spirits, and it’s been giving me a rough time!</string>
+    <string>This early in the morning though?</string>
+    <string>Well. Sometimes I wake up early, and once I get all my morning rituals done, I just play some games if I have time before class starts. Is that a problem?</string>
+
+    <string>No, but…</string>
+    <string>But what?</string>
+    <string>Danny is squinting his eyes at me, curious as to what I’m about to say next. I open my mouth, about to say something, but then I close my mouth and shake my head.</string>
+    <string>Sorry. Didn’t mean to be rude, but I get what you mean. Anyway, it’s about time for us to head to class. You go on ahead, I gotta shut down my computer.</string>
+    <string>Danny waves me off, and I proceed to walk to Oliver…</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As I knocked on the door, I could hear yelling from the room. I could hear some stumbling in the room and footsteps headed towards the door. Danny opens it to reveal himself.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Oh! Hello again, [NAME]! I’m just gaming again, but don’t mind me! If I’ve been yelling, then I apologize. I’ve been trying out this new game, Dank Spirits, and it’s been giving me a rough time!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]This early in the morning though?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Well. Sometimes I wake up early, and once I get all my morning rituals done, I just play some games if I have time before class starts. Is that a problem?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No, but…</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Danny][Dialog]But what?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny is squinting his eyes at me, curious as to what I’m about to say next. I open my mouth, about to say something, but then I close my mouth and shake my head.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Sorry. Didn’t mean to be rude, but I get what you mean. Anyway, it’s about time for us to head to class. You go on ahead, I gotta shut down my computer.</string>
+    </ArrayOfString>
+  
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny waves me off, and I proceed to walk to Oliver…</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>

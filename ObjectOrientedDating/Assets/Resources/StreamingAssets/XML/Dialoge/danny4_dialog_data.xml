@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>As I walk into the room, I see Danny sitting behind his computer. He has dark circles under his eyes, his eyes shift to me as soon as I walk in.</string>
+    <string>Oh... Hey [NAME],... I was doing some rank grinding in League of Heroes, but I ended up staying up all night. Thankfully I have some gourmet coffee to wake me up!</string>
+    <string>Danny, reshifts his gaze to the monitor. A victory screen is on it, and he stands sluggishly, arms raised, indicating that he won!</string>
+    <string>Yes... Promotion series! Alright... Gotta get ready for class, but first, some coffee!</string>
+
+    <string>Danny walks over to the coffee maker in the corner of his room, and pours himself a nice mug of coffee. He drinks the entirety of the mug. His eyes shoot open, and he showed loads of vigor and jittering.</string>
+    <string>Uhhh… You alright there Danny?</string>
+    <string>You kidding?! I feel amazing! This coffee is my secret weapon for making it through my classes! Bow before the might of the coffee bean!</string>
+    <string>Danny makes a dramatic pose pointing to the sky, somewhat frozen in place. I proceed to quietly shuffle out of his room at the odd display.</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]As I walk into the room, I see Danny sitting behind his computer. He has dark circles under his eyes, his eyes shift to me as soon as I walk in.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Oh... Hey [NAME],... I was doing some rank grinding in League of Heroes, but I ended up staying up all night. Thankfully I have some gourmet coffee to wake me up!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny, reshifts his gaze to the monitor. A victory screen is on it, and he stands sluggishly, arms raised, indicating that he won!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]Yes... Promotion series! Alright... Gotta get ready for class, but first, some coffee!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny walks over to the coffee maker in the corner of his room, and pours himself a nice mug of coffee. He drinks the entirety of the mug. His eyes shoot open, and he showed loads of vigor and jittering.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Uhhh… You alright there Danny?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]You kidding?! I feel amazing! This coffee is my secret weapon for making it through my classes! Bow before the might of the coffee bean!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Danny makes a dramatic pose pointing to the sky, somewhat frozen in place. I proceed to quietly shuffle out of his room at the odd display.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+   
+  </values>
+</ConvoEntry>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Arun is supposed to have his office hours today. The door is closed, so I knock.</string>
+    <string>Come in!</string>
+    <string>The door opens to reveal his office. It’s a small little space. Arun hasn’t done much to the space so it looks just like every other teacher’s office. Could use a little more decoration.</string>
+    <string>Came to ask about the class?</string>
+
+    <string>Well yes. More specifically the first assignment.</string>
+    <string>Having trouble?</string>
+    <string>No, I just want to make sure I did it correctly.</string>
+    <string>Oh, well I’d be happy to take a look. Usually I don’t get students coming in this early so I was a little confused. Most of my visitors are worried about failing their classes. It’s nice to have a change.</string>
+    <string>I hand Arun my homework. He pulls out his answer key to make sure I have them right.</string>
+
+    <string>These look good, so don’t worry. I’m glad that you got the hang of it pretty quick. Hopefully this means I won’t see you later. You know, failing and all. Have a good day.</string>
+    <string>Thanks Arun! I think I’ll be just fine.</string>
+    <string>I leave his office and close the door.</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Arun is supposed to have his office hours today. The door is closed, so I knock.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Come in!</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]The door opens to reveal his office. It’s a small little space. Arun hasn’t done much to the space so it looks just like every other teacher’s office. Could use a little more decoration.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Came to ask about the class?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Well yes. More specifically the first assignment.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Arun][Dialog]Having trouble?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]No, I just want to make sure I did it correctly.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]Oh, well I’d be happy to take a look. Usually I don’t get students coming in this early so I was a little confused. Most of my visitors are worried about failing their classes. It’s nice to have a change.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I hand Arun my homework. He pulls out his answer key to make sure I have them right.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][Dialog]These look good, so don’t worry. I’m glad that you got the hang of it pretty quick. Hopefully this means I won’t see you later. You know, failing and all. Have a good day.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Player][Dialog]Thanks Arun! I think I’ll be just fine.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I leave his office and close the door.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Arun][End] </string>
+    </ArrayOfString>
+ 
+  </values>
+</ConvoEntry>

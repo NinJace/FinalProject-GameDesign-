@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>[None]Ummm</string>
+    <string>[None]Always. *Finger Guns*</string>
+    <string>Well you should.</string>
+    <string>That’s right! *Finger Guns*</string>
+    <string> </string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Seth][Option]You ever just unconsciously wink at someone?</string>
+      <string>[None]Ummm</string>
+      <string>[None]Always. *Finger Guns*</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Well you should.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]That’s right! *Finger Guns*</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][End] </string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
+

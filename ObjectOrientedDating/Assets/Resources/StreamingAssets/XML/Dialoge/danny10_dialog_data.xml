@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>Danny how come I always see you inside the bathroom?</string>
+    <string>I gotta pee a lot.</string>
+    <string>And why are you always in a ninja outfit?</string>
+    <string>So you don’t see me in the bathroom.</string>
+
+    <string>Ok. But I’m here seeing and talking to you.</string>
+    <string>No one said that being a ninja was easy. If I wore camo no one would notice me, I would just blend right in.</string>
+    <string>Aren’t ninja’s supposed to blend into their surroundings?</string>
+    <string> </string>
+
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Player][Dialog]Danny how come I always see you inside the bathroom?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]I gotta pee a lot.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]And why are you always in a ninja outfit?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][Dialog]So you don’t see me in the bathroom.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Ok. But I’m here seeing and talking to you.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Danny][Dialog]No one said that being a ninja was easy. If I wore camo no one would notice me, I would just blend right in.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]Aren’t ninja’s supposed to blend into their surroundings?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Danny][End] </string>
+    </ArrayOfString>
+
+  </values>
+</ConvoEntry>

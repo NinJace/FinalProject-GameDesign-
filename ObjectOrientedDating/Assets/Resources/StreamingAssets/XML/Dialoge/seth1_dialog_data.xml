@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConvoEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <keys>
+    <string>Start</string>
+    <string>I see a man pacing around the room. He keeps looking at his laptop as he passes it. I see code on the screen. He’s probably stuck debugging.</string>
+    <string>[None]...</string>
+    <string>Same. Well, I gotta get back to making this smutty dating sim. Good luck... I guess.</string>
+    <string>a</string>
+    
+    <string>[None]Yeah, just got here.</string>
+    <string>Nawce, nawce. Anything I can help you with?</string>
+    <string>What’s the program like?</string>
+    <string>It’s not too bad. There’s a good selection of courses, and the professors who teach them are really good. Do your homework, and they’ll like you. Don’t do it, and, well... It won’t matter in the end.</string>
+    <string>Is there anything to do around the school?</string>
+
+    <string>Sure, there’s a good bit to do. There’s some malls, a comic shop where you can play Mojo: The Grouping, and a lot of people play Creatures: STOP.</string>
+    <string>b</string>
+  </keys>
+  <values>
+    <ArrayOfString>
+      <string>[Narrator][Dialog]I see a man pacing around the room. He keeps looking at his laptop as he passes it. I see code on the screen. He’s probably stuck debugging.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Option]Hey, man, I’m Seth. You’re the new guy, right?</string>
+      <string>[None]...</string>
+      <string>[None]Yeah, just got here.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Same. Well, I gotta get back to making this smutty dating sim. Good luck... I guess.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][End]a</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>a</string>
+    </ArrayOfString>
+    
+    <ArrayOfString>
+      <string>[Seth][Dialog]Nawce, nawce. Anything I can help you with?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]What’s the program like?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]It’s not too bad. There’s a good selection of courses, and the professors who teach them are really good. Do your homework, and they’ll like you. Don’t do it, and, well... It won’t matter in the end.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Player][Dialog]Is there anything to do around the school?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>[Seth][Dialog]Sure, there’s a good bit to do. There’s some malls, a comic shop where you can play Mojo: The Grouping, and a lot of people play Creatures: STOP.</string>
+    </ArrayOfString>
+
+    <ArrayOfString>
+      <string>[Seth][End]b</string>
+    </ArrayOfString>
+  </values>
+</ConvoEntry>
